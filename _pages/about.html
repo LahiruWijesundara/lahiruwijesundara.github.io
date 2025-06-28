@@ -1,0 +1,52 @@
+---
+layout: about
+title: About
+permalink: /
+subtitle:
+
+profile:
+  align: left
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+  more_info: >
+
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
+
+announcements:
+  enabled: false # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
+---
+
+<p align="justify">
+I'm Lahiru , an Experienced gameplay programmer with a master's degree in commercial games development and over 6 years of expertise in game programming and published games on Steam.<br>
+<br>
+Proven track record of writing clean, efficient, and maintainable gameplay systems. Thrives in team environments and consistently delivers high-quality work within deadlines. Committed to continuous learning and staying updated on the latest advancements and improvements in key skills relevant to game development.
+</p>
+
+{% include social.liquid %}
+
+<style>
+/* Use !important and target both .social and .social-icons structures, as well as direct Font Awesome classes */
+.social i,
+.social-icons i,
+.fa,
+.fab,
+.fas {
+  font-size: 2.8em !important;  /* Change this value as you wish */
+  line-height: 1.2 !important;
+}
+
+/* Optionally, make the social bar centered and add spacing */
+.social,
+.social-icons {
+  text-align: center !important;
+  margin-bottom: 1em;
+}
+</style>

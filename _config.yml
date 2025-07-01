@@ -151,6 +151,8 @@ collections:
     output: true
   projects:
     output: true
+  portfolio:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -192,12 +194,14 @@ exclude:
   - readme_preview/
   - vendor
   - _pages/blog.md
-#  - _pages/profiles.md
+  - _pages/profiles.md
   - _pages/repositories.md
   - _pages/teaching.md
   - _pages/books.md
   - _pages/dropdown.md
-#  - _pages/cv.md
+  - _pages/cv.md
+  - _pages/projects.md
+  - _pages/publications.md
 keep_files:
   - CNAME
   - .nojekyll

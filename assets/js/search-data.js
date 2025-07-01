@@ -397,7 +397,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "portfolio-blood-reckoning",
           title: 'Blood Reckoning',
-          description: "with background image",
+          description: "Lead Unreal Engine Gameplay Programmer",
           section: "Portfolio",handler: () => {
               window.location.href = "/portfolio/blood_reckoning/";
             },},{id: "projects-project-1",

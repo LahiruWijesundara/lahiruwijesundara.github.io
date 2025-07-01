@@ -395,11 +395,51 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "portfolio-blood-reckoning",
+          section: "News",},{id: "portfolio-nom-boy-39-s-love-for-the-world",
+          title: 'Nom Boy&amp;#39;s Love for the World',
+          description: "Associated with UWE MSc",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/Nomboy/";
+            },},{id: "portfolio-blood-reckoning",
           title: 'Blood Reckoning',
           description: "Lead Unreal Engine Gameplay Programmer",
           section: "Portfolio",handler: () => {
               window.location.href = "/portfolio/blood_reckoning/";
+            },},{id: "portfolio-combat-beans-total-mayhem",
+          title: 'Combat Beans Total Mayhem',
+          description: "Senior Unreal Engine gameplay programmer",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/combat_beans%20copy%202/";
+            },},{id: "portfolio-combat-beans-total-mayhem",
+          title: 'Combat Beans Total Mayhem',
+          description: "Senior Unreal Engine gameplay programmer",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/combat_beans%20copy/";
+            },},{id: "portfolio-combat-beans-total-mayhem",
+          title: 'Combat Beans Total Mayhem',
+          description: "Senior Unreal Engine gameplay programmer",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/combat_beans/";
+            },},{id: "portfolio-all-elephants-go-to-heaven",
+          title: 'All Elephants Go To Heaven',
+          description: "Associated with UWE MSc",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/game_jam_1/";
+            },},{id: "portfolio-a-comparative-study-of-dqn-and-ppo-algorithms-in-a-2d-fighting-game-using-unity-ml-agents",
+          title: 'A Comparative Study of DQN and PPO Algorithms in a 2D Fighting Game...',
+          description: "Senior Unreal Engine gameplay programmer",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/msc_research_1/";
+            },},{id: "portfolio-driving-down-emissions-a-serious-game-approach-to-transport-decarbonisation",
+          title: 'Driving Down Emissions A Serious Game Approach to Transport Decarbonisation',
+          description: "Senior Unreal Engine gameplay programmer",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/msc_research_2%20copy/";
+            },},{id: "portfolio-driving-down-emissions-a-serious-game-approach-to-transport-decarbonisation",
+          title: 'Driving Down Emissions A Serious Game Approach to Transport Decarbonisation',
+          description: "Senior Unreal Engine gameplay programmer",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/msc_research_2/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",

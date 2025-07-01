@@ -1,12 +1,11 @@
 ---
 layout: page
 title: Blood Reckoning
-description: with background image
+description: Lead Unreal Engine Gameplay Programmer
 img: assets/img/12.jpg
 importance: 1
 category: Work Experience
 related_publications: true
-nav: false
 ---
 
 Every project has a beautiful feature showcase page.

@@ -1,39 +1,43 @@
 ---
 layout: page
-title: Blood Reckoning
-description: Lead Unreal Engine Gameplay Programmer
+title: Blood Reckoning - The Eternal War <br> <em>Dark-Fantasy MMORPG</em>
 img: assets/img/portfolio/bloodreckoning_logo.png
+permalink: /blood-reckoning/
 importance: 1
 category: Work Experience
-related_publications: true
+description: "Lead Unreal Engine Gameplay Programmer (Oct 2024 – Present) <br> Zukel Investment Group, USA (Remote)"
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<p align="justify">
+<em><strong>Technologies</strong> - Unreal Engine 5, C++, Unreal Blueprints</em><br>
+<a href="https://bloodreckoning.com/" target="_blank"><em>Visit Official Website</em></a>
+<br>
+<br>
+Blood Reckoning is a dark-fantasy MMORPG made by gamers for gamers. Set in a realm shattered by the appearance of Blood Stones, it blends ancient technology, sorcery, demons, angels, elves, dwarves, and desperate humans struggling to survive. This over-18-only world embraces mature stories, nudity, and grim themes. PvP-centric combat offers unique, limited-edition skills and weapons—true one-offs earned through exploration, puzzle-solving, or rare NPC encounters.
+<br>
+<br>
+I'm leading the team to design and implement gameplay mechanics utilizing Unreal Engine's Gameplay Framework, ensuring robust and maintainable systems. Designed and developed a comprehensive player data-saving solution by integrating Unreal's built-in save system with MongoDB for persistent and efficient storage. Implemented a versatile combat system, incorporating both melee and ranged attack mechanics to enhance player interaction. Additionally, designed and implemented sophisticated enemy AI behaviors using Unreal Engine's AI framework, delivering engaging and challenging gameplay experiences.
+</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="https://youtu.be/JV8MshHIvn4" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue.jpg" title="Dragon Statute" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_church.jpg" title="Church" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_encampment.jpg" title="Encampment" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    In-Game captures
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -59,23 +63,3 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
 <div class="caption">
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

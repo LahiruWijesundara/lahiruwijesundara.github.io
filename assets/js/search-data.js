@@ -400,26 +400,16 @@ ninja.data = [{
           description: "Associated with UWE MSc",
           section: "Portfolio",handler: () => {
               window.location.href = "/portfolio/Nomboy/";
-            },},{id: "portfolio-blood-reckoning",
-          title: 'Blood Reckoning',
-          description: "Lead Unreal Engine Gameplay Programmer",
+            },},{id: "portfolio-blood-reckoning-the-eternal-war-dark-fantasy-mmorpg",
+          title: 'Blood Reckoning - The Eternal War  Dark-Fantasy MMORPG',
+          description: "Lead Unreal Engine Gameplay Programmer (Oct 2024 – Present)  Zukel Investment Group, USA (Remote)",
           section: "Portfolio",handler: () => {
-              window.location.href = "/portfolio/blood_reckoning/";
-            },},{id: "portfolio-combat-beans-total-mayhem",
-          title: 'Combat Beans Total Mayhem',
-          description: "Senior Unreal Engine gameplay programmer",
+              window.location.href = "/blood-reckoning/";
+            },},{id: "portfolio-combat-beans-total-mayhem-third-person-shooter-multiplayer",
+          title: 'Combat Beans - Total Mayhem  Third-Person Shooter Multiplayer',
+          description: "Senior Unreal Engine Gameplay Programmer (July 2021– Sep 2023)  Peanut Brain Studios, Japan (Remote)",
           section: "Portfolio",handler: () => {
-              window.location.href = "/portfolio/combat_beans%20copy%202/";
-            },},{id: "portfolio-combat-beans-total-mayhem",
-          title: 'Combat Beans Total Mayhem',
-          description: "Senior Unreal Engine gameplay programmer",
-          section: "Portfolio",handler: () => {
-              window.location.href = "/portfolio/combat_beans%20copy/";
-            },},{id: "portfolio-combat-beans-total-mayhem",
-          title: 'Combat Beans Total Mayhem',
-          description: "Senior Unreal Engine gameplay programmer",
-          section: "Portfolio",handler: () => {
-              window.location.href = "/portfolio/combat_beans/";
+              window.location.href = "/combat-beans/";
             },},{id: "portfolio-all-elephants-go-to-heaven",
           title: 'All Elephants Go To Heaven',
           description: "Associated with UWE MSc",

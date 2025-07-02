@@ -2,7 +2,7 @@
 layout: page
 title: Combat Beans Total Mayhem
 description: Senior Unreal Engine gameplay programmer
-img: assets/img/portfolio/bloodstone.png
+img: assets/img/portfolio/combatbeans_logo.png
 importance: 2
 category: Work Experience
 related_publications: true

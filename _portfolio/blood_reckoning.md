@@ -2,7 +2,7 @@
 layout: page
 title: Blood Reckoning
 description: Lead Unreal Engine Gameplay Programmer
-img: assets/img/12.jpg
+img: assets/img/portfolio/bloodreckoning_logo.png
 importance: 1
 category: Work Experience
 related_publications: true

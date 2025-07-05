@@ -430,6 +430,11 @@ ninja.data = [{
           description: "Senior Unreal Engine gameplay programmer",
           section: "Portfolio",handler: () => {
               window.location.href = "/portfolio/msc_research_2/";
+            },},{id: "portfolio-saf-tac-vr-pc-military-defence-simulation",
+          title: 'SAF-TAC  VR/PC Military Defence Simulation',
+          description: "Senior Software Engineer (April 2018 – Sep 2023)  SimCentric, Sri Lanka",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/saf-tac/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",

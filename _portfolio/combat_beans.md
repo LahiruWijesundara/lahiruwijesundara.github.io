@@ -8,74 +8,92 @@ importance: 2
 category: Work Experience
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<p align="justify">
+<em><strong>Technologies</strong> - Unreal Engine 4 & 5, C++, Azur PlayFab SDK, Unreal Engine Multiplayer Framework & Gameplay Framework</em><br>
+<a href="https://www.peanutbrainstudios.com/" target="_blank"><em>Official Website</em></a>
+<a href="https://store.steampowered.com/app/1717080/Combat_Beans_Total_Mayhem/" target="_blank"><em>, Steam Page</em></a>
+<br>
+<br>
+Combat Beans: Total Mayhem is a fun and chaotic third-person shooter that combines "Fall Guys" party game elements with intense combat mechanics. The game is available on Steam and features dynamic multiplayer gameplay.
+<br>
+<br>
+I led the team to design and implement advanced gameplay mechanics using the Unreal Engine Gameplay framework, architected the combat system and player inventory, and enabled dynamically scalable servers and matchmaking through Microsoft Azure PlayFab.
+<br>
+<br>
+</p>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="container-fluid p-0 m-0">
+  <div class="row no-gutters">
+    <div class="col-5">
+        <div class="embed-responsive embed-responsive-16by9">
+            {% include video.liquid path="https://www.youtube.com/embed/RS1mnk3h4eY" class="img-fluid rounded z-depth-1"%}
+        </div>
+        <br>
+        <div class="embed-responsive embed-responsive-16by9">
+            {% include video.liquid path="https://www.youtube.com/embed/8P7oaDc8Sr0" class="img-fluid rounded z-depth-1"%}
+        </div>            
+        <br>
+        <div class="embed-responsive embed-responsive-16by9">
+            {% include video.liquid path="https://www.youtube.com/embed/4KzXNyztX1A" class="img-fluid rounded z-depth-1"%}
+        </div>   
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-7 pl-2">
+        <ul class="mb-0">
+            <p align="justify">Here is a detailed breakdown of my contribution to the project</p>
+            <li><strong>Server and Matchmaking Implementation:</strong></li>
+                <ul>
+                    <li>Developed a dedicated server for the game using Unreal Engine's multiplayer framework and GitHub source build</li>
+                </ul>
+                <ul>
+                    <li>Integrated C++ Azur PlayFab SDKs to implement dynamically scalable servers and matchmaking, ensuring smooth and efficient player connections</li>
+                </ul>
+            <li><strong>Gameplay Mechanics Development:</strong></li>
+                <ul>
+                    <li>Created custom game modes and game states to manage game rules and state transitions, enhancing the gaming experience</li>
+                </ul>
+                <ul>
+                    <li>Implemented player controller logic for precise player input handling and interaction with pawns and characters</li>
+                </ul>                
+            <li><strong>HUD and UI Design:</strong></li>
+                <ul>
+                    <li>Implemented dynamic HUD elements, including health bars, equipped weapon displays, ammo counts, and game timers, providing players with real-time information.​</li>
+                    </ul>              
+            <li><strong>Animation and Character Mechanics:</strong></li>
+                <ul>
+                    <li>Used animation blueprints, montages, state machines, and blend spaces to develop character and weapon-related game mechanics.</li>
+                </ul>
+                <ul>               
+                    <li>Developed a reusable modular weapon system supporting over ten different types of weapons, allowing for diverse gameplay strategies.​</li>
+                </ul>  
+            <li><strong>Progression and Achievements:</strong></li>
+                <ul>               
+                    <li>Implemented a point-based experience progression system and cosmetic items unlocking system, encouraging player engagement and retention.​</li>
+                </ul>
+                <ul>               
+                    <li>Created a Steam page and published the game on Steam using Steamworks, integrating Steam achievements such as "Kill ten players" and "Reach level 10."​</li>
+                </ul>                                
+            <li><strong>Additional Features:</strong></li>
+                <ul>               
+                    <li>Developed a component-based gameplay system to integrate Steam achievements, enhancing the game's appeal and replayability.​</li>
+                </ul>    
+            <li><strong>Challenges and Solutions:</strong></li>
+                <ul>               
+                    <li>Challenge: Balancing server performance with increasing player count.​</li>
+                </ul>
+                <ul>               
+                    <li>Solution: Implemented best practices for Unreal multiplayer game development, optimizing server performance to handle higher player concurrency.​</li>
+                    <br>
+                </ul>                                    
+                <ul>               
+                    <li>Challenge: Ensuring smooth animation transitions and responsive player controls.​</li>
+                </ul>
+                    <ul>               
+                        <li>Solution: Utilized advanced Unreal Engine animation tools and rigorous testing to refine character mechanics and player input handling.</li>
+                    </ul>                                    
+                </ul>        
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
 </div>
-```
 
-{% endraw %}
+<br>
+<br>

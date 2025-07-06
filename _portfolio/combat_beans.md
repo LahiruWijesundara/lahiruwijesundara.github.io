@@ -25,13 +25,19 @@ I led the team to design and implement advanced gameplay mechanics using the Unr
  <!-- Image Column -->
     <div class="col-12 col-md-4 mb-3">
         <!-- Image 1 -->
-        <a href="/assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue_fhd.png" data-fancybox="gallery" data-caption="Dragon Statue">
-            {% include figure.liquid loading="eager" path="assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue.png" title="Dragon Statue" class="img-fluid rounded z-depth-1 mb-3" %}
-        </a>
+        {% include image_fancybox.liquid
+            full="/assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue_fhd.png"
+            thumb="assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue.png"
+            loading="eager"
+            category="screen captures"
+        %}
         <!-- Image 2 -->
-        <a href="/assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue.png" data-fancybox="gallery" data-caption="Dragon Statue">
-            {% include figure.liquid loading="eager" path="assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue.png" title="Dragon Statue" class="img-fluid rounded z-depth-1 mb-3" %}
-        </a>
+        {% include image_fancybox.liquid
+            full="/assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue_fhd.png"
+            thumb="assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue.png"
+            loading="eager"
+            category="screen captures"
+        %}        
     </div>
     <!-- Text Column -->
     <div class="col-12 col-md-8 pl-md-3">
@@ -92,38 +98,31 @@ I led the team to design and implement advanced gameplay mechanics using the Unr
   <div class="row">
     <!-- Video 1 -->
     <div class="col-12 col-md-4 mb-4">
-        <a href="https://www.youtube.com/watch?v=RS1mnk3h4eY" data-fancybox="gallery" data-caption="Dragon Statue">
-            <img src="https://img.youtube.com/vi/RS1mnk3h4eY/maxresdefault.jpg" alt="Teaser Trailer" class="img-fluid rounded z-depth-1">
-        </a>
-        <p class="text-center small mb-0" style="font-weight: 400;">Teaser Trailer</p>
+        {% include play_video.liquid id="RS1mnk3h4eY" category="Exclusive Sneak Peek" caption="Teaser Trailer" %}
     </div>
+    <!-- Video 2 -->
     <div class="col-12 col-md-4 mb-4">
-      <div class="embed-responsive embed-responsive-16by9 mb-2">
-        {% include video.liquid path="https://www.youtube.com/embed/8P7oaDc8Sr0" class="img-fluid rounded z-depth-1" %}
-      </div>
-      <p class="text-center small mb-0" style="font-weight: 400;">Gameplay 1</p>
+        {% include play_video.liquid id="8P7oaDc8Sr0" category="Exclusive Sneak Peek" caption="Gameplay 1" %}
     </div>
+    <!-- Video 3 -->    
     <div class="col-12 col-md-4 mb-4">
-      <div class="embed-responsive embed-responsive-16by9 mb-2">
-        {% include video.liquid path="https://www.youtube.com/embed/4KzXNyztX1A" class="img-fluid rounded z-depth-1" %}
-      </div>
-      <p class="text-center small mb-0" style="font-weight: 400;">Gameplay 2</p>
+        {% include play_video.liquid id="4KzXNyztX1A" category="Exclusive Sneak Peek" caption="Gameplay 2" %}
     </div>
   </div>
 
   <!-- Second Row -->
   <div class="row">
+    <!-- Video 1 -->
     <div class="col-12 col-md-4 mb-4">
-      <div class="embed-responsive embed-responsive-16by9 mb-2">
-        {% include video.liquid path="https://www.youtube.com/embed/wlkGtNo2SXw" class="img-fluid rounded z-depth-1" %}
-      </div>
-      <p class="text-center small mb-0" style="font-weight: 400;">Launch Trailer</p>
+        {% include play_video.liquid id="wlkGtNo2SXw" category="Exclusive Sneak Peek" caption="Launch Trailer" %}
     </div>
+    <!-- Video 2 -->
     <div class="col-12 col-md-4 mb-4">
-      <div class="embed-responsive embed-responsive-16by9 mb-2">
-        {% include video.liquid path="https://www.youtube.com/embed/89cXrO1xiy8" class="img-fluid rounded z-depth-1" %}
-      </div>
-      <p class="text-center small mb-0" style="font-weight: 400;">AI Bot Battle Mode</p>
+        {% include play_video.liquid id="89cXrO1xiy8" category="Exclusive Sneak Peek" caption="AI Bot Battle Mode" %}
+    </div>
+    <!-- Video 3 -->    
+    <div class="col-12 col-md-4 mb-4">
+        {% include play_video.liquid id="mtEtu33Wstc" category="Exclusive Sneak Peek" caption="Play Against Bots" %}
     </div>
   </div>
 </div>

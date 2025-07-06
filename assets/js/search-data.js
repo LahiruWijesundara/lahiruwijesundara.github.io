@@ -410,6 +410,11 @@ ninja.data = [{
           description: "Senior Unreal Engine Gameplay Programmer (July 2021– Sep 2023)  Peanut Brain Studios, Japan (Remote)",
           section: "Portfolio",handler: () => {
               window.location.href = "/combat-beans/";
+            },},{id: "portfolio-the-edge-of-the-world-open-world-action-rpg",
+          title: 'The Edge Of The World  Open-World Action RPG',
+          description: "Unreal Engine Gameplay Programmer (May 2021 – Dec 2021)  Ksavage Media, USA (Remote)",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/edge-of-the-world/";
             },},{id: "portfolio-all-elephants-go-to-heaven",
           title: 'All Elephants Go To Heaven',
           description: "Associated with UWE MSc",
@@ -435,6 +440,11 @@ ninja.data = [{
           description: "Senior Software Engineer (April 2018 – Sep 2023)  SimCentric, Sri Lanka",
           section: "Portfolio",handler: () => {
               window.location.href = "/saf-tac/";
+            },},{id: "portfolio-sigma-phi-laboratory-serious-game",
+          title: 'Sigma Phi Laboratory  Serious Game',
+          description: "Unreal Engine Gameplay Programmer (Mar 2023 – Aug 2023)  Sigma Phi Labs, China (Remote)",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/sigma-phi-laboratory/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",

@@ -18,82 +18,115 @@ Combat Beans: Total Mayhem is a fun and chaotic third-person shooter that combin
 <br>
 <br>
 I led the team to design and implement advanced gameplay mechanics using the Unreal Engine Gameplay framework, architected the combat system and player inventory, and enabled dynamically scalable servers and matchmaking through Microsoft Azure PlayFab.
-<br>
-<br>
 </p>
 
 <div class="container-fluid p-0 m-0">
   <div class="row no-gutters">
-    <div class="col-5">
-        <div class="embed-responsive embed-responsive-16by9">
-            {% include video.liquid path="https://www.youtube.com/embed/RS1mnk3h4eY" class="img-fluid rounded z-depth-1"%}
-        </div>
-        <br>
-        <div class="embed-responsive embed-responsive-16by9">
-            {% include video.liquid path="https://www.youtube.com/embed/8P7oaDc8Sr0" class="img-fluid rounded z-depth-1"%}
-        </div>            
-        <br>
-        <div class="embed-responsive embed-responsive-16by9">
-            {% include video.liquid path="https://www.youtube.com/embed/4KzXNyztX1A" class="img-fluid rounded z-depth-1"%}
-        </div>   
+ <!-- Image Column -->
+    <div class="col-12 col-md-4 mb-3">
+        <!-- Image 1 -->
+        <a href="/assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue_fhd.png" data-fancybox="gallery" data-caption="Dragon Statue">
+            {% include figure.liquid loading="eager" path="assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue.png" title="Dragon Statue" class="img-fluid rounded z-depth-1 mb-3" %}
+        </a>
+        <!-- Image 2 -->
+        <a href="/assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue.png" data-fancybox="gallery" data-caption="Dragon Statue">
+            {% include figure.liquid loading="eager" path="assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue.png" title="Dragon Statue" class="img-fluid rounded z-depth-1 mb-3" %}
+        </a>
     </div>
-    <div class="col-7 pl-2">
-        <ul class="mb-0">
-            <p align="justify">Here is a detailed breakdown of my contribution to the project</p>
-            <li><strong>Server and Matchmaking Implementation:</strong></li>
-                <ul>
-                    <li>Developed a dedicated server for the game using Unreal Engine's multiplayer framework and GitHub source build</li>
-                </ul>
-                <ul>
-                    <li>Integrated C++ Azur PlayFab SDKs to implement dynamically scalable servers and matchmaking, ensuring smooth and efficient player connections</li>
-                </ul>
-            <li><strong>Gameplay Mechanics Development:</strong></li>
-                <ul>
-                    <li>Created custom game modes and game states to manage game rules and state transitions, enhancing the gaming experience</li>
-                </ul>
-                <ul>
-                    <li>Implemented player controller logic for precise player input handling and interaction with pawns and characters</li>
-                </ul>                
-            <li><strong>HUD and UI Design:</strong></li>
-                <ul>
-                    <li>Implemented dynamic HUD elements, including health bars, equipped weapon displays, ammo counts, and game timers, providing players with real-time information.​</li>
-                    </ul>              
-            <li><strong>Animation and Character Mechanics:</strong></li>
-                <ul>
-                    <li>Used animation blueprints, montages, state machines, and blend spaces to develop character and weapon-related game mechanics.</li>
-                </ul>
-                <ul>               
-                    <li>Developed a reusable modular weapon system supporting over ten different types of weapons, allowing for diverse gameplay strategies.​</li>
-                </ul>  
-            <li><strong>Progression and Achievements:</strong></li>
-                <ul>               
-                    <li>Implemented a point-based experience progression system and cosmetic items unlocking system, encouraging player engagement and retention.​</li>
-                </ul>
-                <ul>               
-                    <li>Created a Steam page and published the game on Steam using Steamworks, integrating Steam achievements such as "Kill ten players" and "Reach level 10."​</li>
-                </ul>                                
-            <li><strong>Additional Features:</strong></li>
-                <ul>               
-                    <li>Developed a component-based gameplay system to integrate Steam achievements, enhancing the game's appeal and replayability.​</li>
-                </ul>    
-            <li><strong>Challenges and Solutions:</strong></li>
-                <ul>               
-                    <li>Challenge: Balancing server performance with increasing player count.​</li>
-                </ul>
-                <ul>               
-                    <li>Solution: Implemented best practices for Unreal multiplayer game development, optimizing server performance to handle higher player concurrency.​</li>
-                    <br>
-                </ul>                                    
-                <ul>               
-                    <li>Challenge: Ensuring smooth animation transitions and responsive player controls.​</li>
-                </ul>
-                    <ul>               
-                        <li>Solution: Utilized advanced Unreal Engine animation tools and rigorous testing to refine character mechanics and player input handling.</li>
-                    </ul>                                    
-                </ul>        
+    <!-- Text Column -->
+    <div class="col-12 col-md-8 pl-md-3">
+      <p class="text-justify">Here is a detailed breakdown of my contribution to the project:</p>
+      <ul class="mb-0">
+        <li><strong>Server and Matchmaking Implementation:</strong>
+          <ul>
+            <li>Developed a dedicated server using Unreal Engine’s multiplayer framework and GitHub source build.</li>
+            <li>Integrated Azure PlayFab SDKs in C++ to support dynamic server scaling and matchmaking.</li>
+          </ul>
+        </li>
+        <li><strong>Gameplay Mechanics Development:</strong>
+          <ul>
+            <li>Created custom game modes and states to define and control gameplay rules and transitions.</li>
+            <li>Implemented precise player input logic in the PlayerController.</li>
+          </ul>
+        </li>
+        <li><strong>HUD and UI Design:</strong>
+          <ul>
+            <li>Built dynamic HUD elements such as health bars, equipped weapons, and timers.</li>
+          </ul>
+        </li>
+        <li><strong>Animation and Character Mechanics:</strong>
+          <ul>
+            <li>Used animation blueprints, montages, and blend spaces for fluid character mechanics.</li>
+            <li>Created a modular weapon system supporting 10+ weapons.</li>
+          </ul>
+        </li>
+        <li><strong>Progression and Achievements:</strong>
+          <ul>
+            <li>Implemented XP progression and cosmetic unlocks to increase player retention.</li>
+            <li>Published on Steam and integrated Steam achievements.</li>
+          </ul>
+        </li>
+        <li><strong>Additional Features:</strong>
+          <ul>
+            <li>Integrated Steam achievements via component-based systems for reusability.</li>
+          </ul>
+        </li>
+        <li><strong>Challenges and Solutions:</strong>
+          <ul>
+            <li><strong>Challenge:</strong> Balancing server performance with player count.</li>
+            <li><strong>Solution:</strong> Used Unreal’s best practices for optimized multiplayer performance.</li>
+            <li><strong>Challenge:</strong> Smooth animation transitions and responsive controls.</li>
+            <li><strong>Solution:</strong> Leveraged UE animation tools and extensive testing to refine feel and control.</li>
+          </ul>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
 
-<br>
-<br>
+<!-- Video section -->
+<div class="container mt-5">
+  <h4 class="mb-4 text-center">Exclusive Sneak Peek</h4>
+  
+  <!-- First Row -->
+  <div class="row">
+    <!-- Video 1 -->
+    <div class="col-12 col-md-4 mb-4">
+        <a href="https://www.youtube.com/watch?v=RS1mnk3h4eY" data-fancybox="gallery" data-caption="Dragon Statue">
+            <img src="https://img.youtube.com/vi/RS1mnk3h4eY/maxresdefault.jpg" alt="Teaser Trailer" class="img-fluid rounded z-depth-1">
+        </a>
+        <p class="text-center small mb-0" style="font-weight: 400;">Teaser Trailer</p>
+    </div>
+    <div class="col-12 col-md-4 mb-4">
+      <div class="embed-responsive embed-responsive-16by9 mb-2">
+        {% include video.liquid path="https://www.youtube.com/embed/8P7oaDc8Sr0" class="img-fluid rounded z-depth-1" %}
+      </div>
+      <p class="text-center small mb-0" style="font-weight: 400;">Gameplay 1</p>
+    </div>
+    <div class="col-12 col-md-4 mb-4">
+      <div class="embed-responsive embed-responsive-16by9 mb-2">
+        {% include video.liquid path="https://www.youtube.com/embed/4KzXNyztX1A" class="img-fluid rounded z-depth-1" %}
+      </div>
+      <p class="text-center small mb-0" style="font-weight: 400;">Gameplay 2</p>
+    </div>
+  </div>
+
+  <!-- Second Row -->
+  <div class="row">
+    <div class="col-12 col-md-4 mb-4">
+      <div class="embed-responsive embed-responsive-16by9 mb-2">
+        {% include video.liquid path="https://www.youtube.com/embed/wlkGtNo2SXw" class="img-fluid rounded z-depth-1" %}
+      </div>
+      <p class="text-center small mb-0" style="font-weight: 400;">Launch Trailer</p>
+    </div>
+    <div class="col-12 col-md-4 mb-4">
+      <div class="embed-responsive embed-responsive-16by9 mb-2">
+        {% include video.liquid path="https://www.youtube.com/embed/89cXrO1xiy8" class="img-fluid rounded z-depth-1" %}
+      </div>
+      <p class="text-center small mb-0" style="font-weight: 400;">AI Bot Battle Mode</p>
+    </div>
+  </div>
+</div>
+
+
+

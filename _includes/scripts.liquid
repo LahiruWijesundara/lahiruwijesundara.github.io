@@ -334,3 +334,15 @@
 {% if site.newsletter.enabled %}
   <script defer src="{{ '/assets/js/newsletter.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
+
+<!-- Fancybox v5 JS with thumbnails plugin -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+<script>
+  // Optional: enable thumbnail panel by default
+  Fancybox.bind('[data-fancybox="gallery"]', {
+    Thumbs: {
+      autoStart: true,
+    },
+  });
+</script>

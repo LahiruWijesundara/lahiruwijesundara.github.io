@@ -16,37 +16,145 @@ description: "Senior Software Engineer (April 2018 – Sep 2023) <br> SimCentric
 SAF-TAC is a VR/Desktop multiplayer application designed specifically for military simulation and training with essential simulation functions such as Exercise Control, Scenario Authoring and After-Action Review.
 <br>
 <br>
-Contributed to creating complex systems and enhancing gameplay experiences using the Unreal engine gameplay framework and Agile methodologies in a highly dynamic, talented team of programmers, game designers, QA engineers and artists. Developed multiplayer mechanics and optimized network performance using Unreal Engine, including server-side logic and AI systems. Created a full-body VR avatar system with inverse kinematics and implemented a weather control system for enhanced user experience. Led technical optimization efforts, worked closely with cross-functional teams, and mentored junior developers.
-<br>
-<br>
-Here is a detailed breakdown of my contribution to the project
+Contributed to creating complex systems and enhancing gameplay experiences using the Unreal engine gameplay framework and Agile methodologies in a highly dynamic, talented team of programmers, game designers, QA engineers and artists. Developed multiplayer mechanics and optimized network performance using Unreal Engine, including server-side logic and AI systems.
 </p>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue.jpg" title="Dragon Statute" class="img-fluid rounded z-depth-1" %}
+<div class="container-fluid p-0 m-0">
+  <div class="row no-gutters">
+ <!-- Image Column -->
+    <div class="col-12 col-md-4 mb-3">
+        <!-- Image 1 -->
+        {% include image_fancybox.liquid
+            full="/assets/img/portfolio/saftac/saftac_1_fhd.png"
+            thumb="assets/img/portfolio/saftac/saftac_1_n.png"
+            loading="eager"
+            category="screen captures"
+        %}
+        <!-- Image 2 -->
+        {% include image_fancybox.liquid
+            full="/assets/img/portfolio/saftac/saftac_2_fhd.png"
+            thumb="assets/img/portfolio/saftac/saftac_2_n.png"
+            loading="eager"
+            category="screen captures"
+        %}
+          <!-- Image 3 -->
+        {% include image_fancybox.liquid
+            full="/assets/img/portfolio/saftac/saftac_3_fhd.png"
+            thumb="assets/img/portfolio/saftac/saftac_3_n.png"
+            loading="eager"
+            category="screen captures"
+            caption="Image courtesy of SimCentric."
+        %}        
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_church.jpg" title="Church" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_encampment.jpg" title="Encampment" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">In-game capture images. Courtesy of Zukel Investment Group 
-</div>
-
-<p align="justify">Here is a detailed breakdown of my contribution to the project
-<br>
-<br>
-    <strong>Advanced AI Systems:</strong>
-        <ul>
+    <!-- Text Column -->
+    <div class="col-12 col-md-8 pl-md-3">
+      <p class="text-justify">Here is a detailed breakdown of my contribution to the project:</p>
+      <ul class="mb-0">
+        <!-- Point 1 -->
+        <li><strong>Advanced AI Systems:</strong>
+          <ul>
             <li>Implemented advanced AI systems using Unreal Engine’s AI controller, behaviour tree, AI perception system, blackboard, navigation system, and environment query system (EQS).</li>
-        </ul>
-        <ul>
             <li>Created a crowd simulation AI with randomized movement and responsive behavior to external events like detonations.</li>
-        </ul>        
-        <ul>
-            <li>Developed a waypoint-based AI system enabling players to issue commands such as moving, fleeing, attacking, and defending through a user interface.</li>
-        </ul>     
-</p>
+            <li>Developed a waypoint-based AI system enabling players to issue commands such as moving, fleeing, attacking, and defending through a user interface.</li>            
+          </ul>
+        </li>
+        <!-- Point 2 -->
+        <li><strong>Full-Body VR Avatar System:</strong>
+          <ul>
+            <li>Developed a C++ plugin for a full-body VR avatar system that utilizes inverse kinematics (IK) and animation-driven 3-point tracking.</li>
+            <li>Achieved accurate motion representation using the control rig in Unreal Engine.</li>         
+          </ul>
+        </li>
+        <!-- Point 3 -->
+        <li><strong>Multiplayer Features:</strong>
+          <ul>
+            <li>Ensured server-authoritative game logic for secure and consistent gameplay experiences.</li>     
+          </ul>
+        </li>
+        <!-- Point 4 -->
+        <li><strong>Weather Control System:</strong>
+          <ul>
+            <li>Developed a customizable weather control system that allows players to adjust elements such as rain, snow, wind, cloud density, fog, and time of day.</li>    
+            <li>Created a user interface (UI) with UMG Motion Designer for intuitive player interaction with the weather system.</li> 
+          </ul>
+        </li>
+        <!-- Point 5 -->
+        <li><strong>Debugging and Optimization:</strong>
+          <ul>
+            <li>Debugged and optimized game mechanics using Unreal Engine's built-in tools such as blueprint debugger, Visual Studio, and Unreal Insights.</li>    
+          </ul>
+        </li>
+        <!-- Point 6 -->
+        <li><strong>Team Collaboration:</strong>
+          <ul>
+            <li>Provided technical guidance to the development team, offering advice for resolving technical challenges.</li>    
+            <li>Reviewed code written by other team members, ensuring code quality and adherence to coding standards..</li> 
+          </ul>
+        </li>
+        <!-- Point 7 -->
+        <li><strong>Challenges and Solutions:</strong>
+          <ul>
+            <li>Challenge: Implementing realistic and responsive AI behaviour in complex training scenarios.</li>    
+            <li>Solution: Leveraged Unreal Engine's advanced AI tools and implemented a combination of behaviour trees, perception systems, and environment query systems to achieve lifelike AI responses.</li> 
+            <li>Challenge: Ensuring seamless multiplayer experience with secure and consistent gameplay.</li>    
+            <li>Solution: Utilized Unreal Engine's network framework to implement robust multiplayer features, focusing on data replication and RPCs for synchronized gameplay.</li> 
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Video section -->
+<div class="container mt-5">
+  <h4 class="mb-4 text-center">Exclusive Sneak Peek</h4>
+  
+  <!-- First Row -->
+  <div class="row">
+    <!-- Video 1 -->
+    <div class="col-12 col-md-4 mb-4">
+        {% include play_video.liquid id="u9vzjb-_KxM" category="Exclusive Sneak Peek" caption="BBC Click Feature SimCentirc's SAF-TAC" %}
+    </div>
+    <!-- Video 2 -->
+    <div class="col-12 col-md-4 mb-4">
+        {% include play_video.liquid id="LX9ELWi9jR4" category="Exclusive Sneak Peek" caption="VR Defence Training" %}
+    </div>
+    <!-- Video 3 -->    
+    <div class="col-12 col-md-4 mb-4">
+        {% include play_video.liquid id="bov6rpz4oiA" category="Exclusive Sneak Peek" caption="NATO, UK Fight Club and Royal Marines Use Case" %}
+    </div>
+  </div>
+
+  <!-- Second Row -->
+  <div class="row">
+    <!-- Video 1 -->
+    <div class="col-12 col-md-4 mb-4">
+        {% include play_video.liquid id="S8nUood9LD4" category="Exclusive Sneak Peek" caption="VR Military Training" %}
+    </div>
+    <!-- Video 2 -->
+    <div class="col-12 col-md-4 mb-4">
+        {% include play_video.liquid id="GAwLb1ATMeU" category="Exclusive Sneak Peek" caption="Royal Marines on Forces TV" %}
+    </div>
+    <!-- Video 3 -->    
+    <div class="col-12 col-md-4 mb-4">
+        {% include play_video.liquid id="aa4bHLpDYcA" category="Exclusive Sneak Peek" caption="Army Reserve Use Case" %}
+    </div>
+
+  <!-- Third Row -->
+  <div class="row">
+    <!-- Video 1 -->
+    <div class="col-12 col-md-4 mb-4">
+        {% include play_video.liquid id="ASK6kZaaDnw" category="Exclusive Sneak Peek" caption="Fire & Movement Realism Demo" %}
+    </div>
+    <!-- Video 2 -->
+    <div class="col-12 col-md-4 mb-4">
+        {% include play_video.liquid id="agqPQpagPd8" category="Exclusive Sneak Peek" caption="Free Roam & Haptic Integration" %}
+    </div>
+    <!-- Video 3 -->    
+    <div class="col-12 col-md-4 mb-4">
+        {% include play_video.liquid id="St2Jf8UorEs" category="Exclusive Sneak Peek" caption="WIP Demo" %}
+        <p class="text-center small mb-0 mt-2" style="font-weight: 400;">Video courtesy of SimCentric.
+    </p>
+    </div>
+  </div>
+</div>

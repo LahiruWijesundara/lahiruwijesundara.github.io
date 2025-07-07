@@ -405,6 +405,11 @@ ninja.data = [{
           description: "Lead Unreal Engine Gameplay Programmer (Oct 2024 – Present)  Zukel Investment Group, USA (Remote)",
           section: "Portfolio",handler: () => {
               window.location.href = "/blood-reckoning/";
+            },},{id: "portfolio-a-depth-first-search-based-approach-to-improving-the-molecular-pathway-search",
+          title: 'A Depth-First Search-Based Approach To Improving The Molecular Pathway Search',
+          description: "Final-year Bachelor’s Research",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/bsc-research/";
             },},{id: "portfolio-combat-beans-total-mayhem-third-person-shooter-multiplayer",
           title: 'Combat Beans - Total Mayhem  Third-Person Shooter Multiplayer',
           description: "Senior Unreal Engine Gameplay Programmer (July 2021– Sep 2023)  Peanut Brain Studios, Japan (Remote)",
@@ -422,19 +427,14 @@ ninja.data = [{
               window.location.href = "/portfolio/game_jam_1/";
             },},{id: "portfolio-a-comparative-study-of-dqn-and-ppo-algorithms-in-a-2d-fighting-game-using-unity-ml-agents",
           title: 'A Comparative Study of DQN and PPO Algorithms in a 2D Fighting Game...',
-          description: "Senior Unreal Engine gameplay programmer",
+          description: "Master&#39;s Dissertation - Associated with University of The West of England, UK",
           section: "Portfolio",handler: () => {
-              window.location.href = "/portfolio/msc_research_1/";
+              window.location.href = "/msc-dissertation/";
             },},{id: "portfolio-driving-down-emissions-a-serious-game-approach-to-transport-decarbonisation",
           title: 'Driving Down Emissions A Serious Game Approach to Transport Decarbonisation',
-          description: "Senior Unreal Engine gameplay programmer",
+          description: "Research Associated with University of The West of England, UK",
           section: "Portfolio",handler: () => {
-              window.location.href = "/portfolio/msc_research_2%20copy/";
-            },},{id: "portfolio-driving-down-emissions-a-serious-game-approach-to-transport-decarbonisation",
-          title: 'Driving Down Emissions A Serious Game Approach to Transport Decarbonisation',
-          description: "Senior Unreal Engine gameplay programmer",
-          section: "Portfolio",handler: () => {
-              window.location.href = "/portfolio/msc_research_2/";
+              window.location.href = "/msc-research-2/";
             },},{id: "portfolio-saf-tac-vr-pc-military-defence-simulation",
           title: 'SAF-TAC  VR/PC Military Defence Simulation',
           description: "Senior Software Engineer (April 2018 – Sep 2023)  SimCentric, Sri Lanka",

@@ -9,8 +9,8 @@ description: "Unreal Engine Gameplay Programmer (Mar 2023 – Aug 2023) <br> Sig
 ---
 
 <p align="justify">
-<em><strong>Technologies</strong> - Unreal Engine 4 & 5, C++, Unreal Engine Gameplay Framework and AI Framework, License Spring SDK, Microsoft Azure PlayFab</em><br>
-<a href="https://www.simct.com/" target="_blank"><em>Official Website</em></a>
+<em><strong>Technologies: </strong>Unreal Engine 4 & 5, C++, Unreal Engine Gameplay Framework and AI Framework, License Spring SDK, Microsoft Azure PlayFab</em><br>
+<em><a href="https://www.simct.com/" target="_blank">Official Website</a></em>
 <br>
 <br>
 Sigma Phi Laboratory is a serious game developed for PC. The project involved creating a scientifically accurate and engaging simulation that integrates various complex systems to provide an educational and interactive experience for players. The game is designed to support scientific research and education, making complex concepts accessible through immersive gameplay.

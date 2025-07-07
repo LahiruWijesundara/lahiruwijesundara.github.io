@@ -9,9 +9,9 @@ category: Work Experience
 ---
 
 <p align="justify">
-<em><strong>Technologies</strong> - Unreal Engine 4 & 5, C++, Azur PlayFab SDK, Unreal Engine Multiplayer Framework & Gameplay Framework</em><br>
-<a href="https://www.peanutbrainstudios.com/" target="_blank"><em>Official Website</em></a>
-<a href="https://store.steampowered.com/app/1717080/Combat_Beans_Total_Mayhem/" target="_blank"><em>, Steam Page</em></a>
+<em><strong>Technologies: </strong>Unreal Engine 4 & 5, C++, Azur PlayFab SDK, Unreal Engine Multiplayer Framework & Gameplay Framework</em><br>
+<em><a href="https://www.peanutbrainstudios.com/" target="_blank">Official Website</a></em>
+<em><a href="https://store.steampowered.com/app/1717080/Combat_Beans_Total_Mayhem/" target="_blank">, Steam Page</a></em>
 <br>
 <br>
 Combat Beans: Total Mayhem is a fun and chaotic third-person shooter that combines "Fall Guys" party game elements with intense combat mechanics. The game is available on Steam and features dynamic multiplayer gameplay.

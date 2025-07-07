@@ -9,10 +9,10 @@ description: "Unreal Engine Gameplay Programmer (May 2021 – Dec 2021) <br> Ksa
 ---
 
 <p align="justify">
-<em><strong>Technologies</strong> - Unreal Engine 4 & 5, C++, Unreal Engine Gameplay Framework and AI Framework</em><br>
-<a href="https://www.simct.com/" target="_blank"><em>Official Website</em></a>
+<em><strong>Technologies: </strong>Unreal Engine 4 & 5, C++, Unreal Engine Gameplay Framework and AI Framework</em>
+<!--<em><a href="https://www.simct.com/" target="_blank">Official Website</a></em>
 <br>
-<br>
+<br>-->
 The Edge of The World is an open-world action RPG set in a richly detailed fantasy universe. Players explore vast landscapes, engage in combat, and complete quests to uncover the mysteries of the edge of the world. The project focuses on creating an immersive gameplay experience with dynamic combat and intelligent AI.
 </p>
 

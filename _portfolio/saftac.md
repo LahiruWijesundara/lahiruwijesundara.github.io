@@ -9,8 +9,8 @@ description: "Senior Software Engineer (April 2018 – Sep 2023) <br> SimCentric
 ---
 
 <p align="justify">
-<em><strong>Technologies</strong> - Unreal Engine 4 & 5, C++, Unreal Engine Multiplayer Framework, Gameplay Framework and AI Framework</em><br>
-<a href="https://www.simct.com/" target="_blank"><em>Official Website</em></a>
+<em><strong>Technologies: </strong>Unreal Engine 4 & 5, C++, Unreal Engine Multiplayer Framework, Gameplay Framework and AI Framework</em><br>
+<em><a href="https://www.simct.com/" target="_blank">Official Website</a></em>
 <br>
 <br>
 SAF-TAC is a VR/Desktop multiplayer application designed specifically for military simulation and training with essential simulation functions such as Exercise Control, Scenario Authoring and After-Action Review.
@@ -108,7 +108,6 @@ Contributed to creating complex systems and enhancing gameplay experiences using
 <!-- Video section -->
 <div class="container mt-5">
   <h4 class="mb-4 text-center">Exclusive Sneak Peek</h4>
-  
   <!-- First Row -->
   <div class="row">
     <!-- Video 1 -->
@@ -153,8 +152,7 @@ Contributed to creating complex systems and enhancing gameplay experiences using
     <!-- Video 3 -->    
     <div class="col-12 col-md-4 mb-4">
         {% include play_video.liquid id="St2Jf8UorEs" category="Exclusive Sneak Peek" caption="WIP Demo" %}
-        <p class="text-center small mb-0 mt-2" style="font-weight: 400;">Video courtesy of SimCentric.
-    </p>
     </div>
   </div>
 </div>
+<p class="text-center small mb-0 mt-2" style="font-weight: 400;">Video courtesy of SimCentric.</p>

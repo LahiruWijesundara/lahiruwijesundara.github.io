@@ -1,81 +1,47 @@
 ---
 layout: page
 title: A Comparative Study of DQN and PPO Algorithms in a 2D Fighting Game Using Unity ML-Agents
-description: Senior Unreal Engine gameplay programmer
-img: assets/img/12.jpg
+description: Master's Dissertation - Associated with University of The West of England, UK
+img: assets/img/portfolio/mscdissertation/msc_dis_card.png
+permalink: /msc-dissertation/
 importance: 1
 category: Research
-related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<p align="justify">
+<em><strong>Supervisor: </strong><a href="https://people.uwe.ac.uk/Person/BethanyMackey" target="_blank">Mackey, B. A</a> (Senior lecturer of creative technology, School of Computing & Creative Technologies, University of the West of England, United Kingdom)</em>
+<br>
+<em><strong>Technologies: </strong>Unity, Unity ML-Agents, IBM SPSS, Deep Reinforcement Learning</em>
+<br>
+<br>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="container-fluid p-0 m-0">
+  <div class="row">
+    <!-- Image Column -->
+    <div class="col-12 col-md-4 mb-3">
+        <!-- Image 1 -->
+        <div class="mb-4">
+            {% include image_fancybox.liquid
+                full="/assets/img/portfolio/mscdissertation/2DMLFighter.gif"
+                thumb="/assets/img/portfolio/mscdissertation/2DMLFighter.gif"
+                loading="eager"
+                category="Exclusive Sneak Peek"
+                caption="Prototype - Train agent fight"
+            %}
+        </div>
+        <!-- Video 1 -->  
+        <div>
+            {% include play_video.liquid id="6S2gGLJNX_w" category="Exclusive Sneak Peek" caption="Video Presentation" %}
+        </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <!-- Text Column -->
+    <div class="col-12 col-md-8 pl-md-3">
+        <p align="justify">      
+            My master's dissertation focused on a comparative performance analysis of Deep Q-Network (DQN) and Proximal Policy Optimisation (PPO) deep reinforcement algorithms within a challenging 2D fighting game environment developed using Unity game engine and Unity ML-Agents toolkit. According to the literature review, there was a gap where both algorithms have been widely used to train 2D fighting game agents. Still, a thorough analysis of their training performance (in terms of learning efficiency) and the performance of the trained agents (in terms of win rates) had not been thoroughly explored. This research fills this gap by rigorously evaluating and comparing these two algorithms to provide deeper insights into their strengths and suitability for complex gaming scenarios. 
+            <br>
+            <br>
+            The game mechanics included basic strategic elements such as lateral movement, slash attacks with a cooldown, and a health system where agents aim to reduce their opponent's health to zero. The environment featured a clearly defined 2D arena with visual health indicators to monitor agent status. Agents were designed to make real-time decisions based on observations of position, distance, and health state, receiving positive and negative rewards shaped to encourage optimal combat behaviour. Agents were trained against a scripted trainer (pre-defined action set) agent, which moves towards the target, then attacks if the opponent is within the attack range and waits until the cooldown period finishes before attacking again. Hyperparameter tuning was conducted using the grid search method, varying the learning rate and neuron counts in the hidden layer, while other parameters were held constant. The best-performing set was selected based on the cumulative reward mean value and standard deviation while considering performance and consistency. The Shapiro-Wilk test shows that the data is not normally distributed (p-value < 0.001), hence the Mann-Whitney U    test is used for statistical significance. Results indicated a significant performance difference between the two algorithms (p = 0.016), with DQN outperforming PPO in mean cumulative rewards (approximately 15.0 versus 12.0). Further validation came from where trained agents played 1,000 matches against each other; DQN demonstrated a notable strategic advantage, winning 71.5% of games compared to PPO's 28.5%. These findings confirm DQN’s superior efficacy for decision-making in 2D dynamic, real-time gaming scenarios.
+        </p>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
-
-{% endraw %}

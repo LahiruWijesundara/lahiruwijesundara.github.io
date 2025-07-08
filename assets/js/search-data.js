@@ -396,10 +396,10 @@ ninja.data = [{
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
           section: "News",},{id: "portfolio-nom-boy-39-s-love-for-the-world",
-          title: 'Nom Boy&amp;#39;s Love for the World',
-          description: "Associated with UWE MSc",
+          title: 'Nom Boy&amp;#39;s Love For The World',
+          description: "Associated with MSc Commercial Games Development Program, University of The West of England, United Kingdom",
           section: "Portfolio",handler: () => {
-              window.location.href = "/portfolio/Nomboy/";
+              window.location.href = "/nomboy/";
             },},{id: "portfolio-blood-reckoning-the-eternal-war-dark-fantasy-mmorpg",
           title: 'Blood Reckoning - The Eternal War  Dark-Fantasy MMORPG',
           description: "Lead Unreal Engine Gameplay Programmer (Oct 2024 – Present)  Zukel Investment Group, USA (Remote)",
@@ -407,9 +407,9 @@ ninja.data = [{
               window.location.href = "/blood-reckoning/";
             },},{id: "portfolio-a-depth-first-search-based-approach-to-improving-the-molecular-pathway-search",
           title: 'A Depth-First Search-Based Approach To Improving The Molecular Pathway Search',
-          description: "Final-year Bachelor’s Research",
+          description: "Final Year Bachelor’s Thesis  Associated with University of Perdeniya, Sri Lanka",
           section: "Portfolio",handler: () => {
-              window.location.href = "/bsc-research/";
+              window.location.href = "/bsc-thesis/";
             },},{id: "portfolio-combat-beans-total-mayhem-third-person-shooter-multiplayer",
           title: 'Combat Beans - Total Mayhem  Third-Person Shooter Multiplayer',
           description: "Senior Unreal Engine Gameplay Programmer (July 2021– Sep 2023)  Peanut Brain Studios, Japan (Remote)",
@@ -420,11 +420,16 @@ ninja.data = [{
           description: "Unreal Engine Gameplay Programmer (May 2021 – Dec 2021)  Ksavage Media, USA (Remote)",
           section: "Portfolio",handler: () => {
               window.location.href = "/edge-of-the-world/";
-            },},{id: "portfolio-all-elephants-go-to-heaven",
-          title: 'All Elephants Go To Heaven',
-          description: "Associated with UWE MSc",
+            },},{id: "portfolio-all-elephants-go-to-heaven-epic-mega-jam-2020",
+          title: 'All Elephants Go To Heaven  Epic Mega Jam 2020',
+          description: "Virtual Reality(VR) game designed for the Oculus Rift S and Oculus Quest, featuring an endless wave-based gameplay format.",
           section: "Portfolio",handler: () => {
-              window.location.href = "/portfolio/game_jam_1/";
+              window.location.href = "/gamejam-1/";
+            },},{id: "portfolio-under-the-ice-unreal-spring-jam-2020",
+          title: 'Under The Ice  Unreal Spring Jam 2020',
+          description: "A multiplayer game where players must cooperate to escape a trapped ice cave, with the twist that one of them is secretly an enemy.",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/gamejam-2/";
             },},{id: "portfolio-a-comparative-study-of-dqn-and-ppo-algorithms-in-a-2d-fighting-game-using-unity-ml-agents",
           title: 'A Comparative Study of DQN and PPO Algorithms in a 2D Fighting Game...',
           description: "Master&#39;s Dissertation - Associated with University of The West of England, UK",

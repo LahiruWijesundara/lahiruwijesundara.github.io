@@ -26,17 +26,17 @@ I led the team to design and implement advanced gameplay mechanics using the Unr
     <div class="col-12 col-md-4 mb-3">
         <!-- Image 1 -->
         {% include image_fancybox.liquid
-            full="/assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue_fhd.png"
-            thumb="assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue.png"
+            full="/assets/img/portfolio/combatbeans/combatbeans_11_fhd.png"
+            thumb="/assets/img/portfolio/combatbeans/combatbeans_11_n.png"
             loading="eager"
-            category="screen captures"
+            category="Image Gallary"
         %}
         <!-- Image 2 -->
         {% include image_fancybox.liquid
-            full="/assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue_fhd.png"
-            thumb="assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue.png"
+            full="/assets/img/portfolio/combatbeans/combatbeans_9_fhd.png"
+            thumb="/assets/img/portfolio/combatbeans/combatbeans_9_n.png"
             loading="eager"
-            category="screen captures"
+            category="Image Gallary"
         %}        
     </div>
     <!-- Text Column -->
@@ -90,7 +90,7 @@ I led the team to design and implement advanced gameplay mechanics using the Unr
   </div>
 </div>
 
-<!-- Video section -->
+<!------------------------------------------------- Video section --------------------------------------------------------------------->
 <div class="container mt-5">
   <h4 class="mb-4 text-center">Exclusive Sneak Peek</h4>
   
@@ -98,15 +98,15 @@ I led the team to design and implement advanced gameplay mechanics using the Unr
   <div class="row">
     <!-- Video 1 -->
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="RS1mnk3h4eY" category="Exclusive Sneak Peek" caption="Teaser Trailer" %}
+        {% include play_youtube.liquid id="RS1mnk3h4eY" category="Exclusive Sneak Peek" caption="Teaser Trailer" %}
     </div>
     <!-- Video 2 -->
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="8P7oaDc8Sr0" category="Exclusive Sneak Peek" caption="Gameplay 1" %}
+        {% include play_youtube.liquid id="8P7oaDc8Sr0" category="Exclusive Sneak Peek" caption="Gameplay 1" %}
     </div>
     <!-- Video 3 -->    
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="4KzXNyztX1A" category="Exclusive Sneak Peek" caption="Gameplay 2" %}
+        {% include play_youtube.liquid id="4KzXNyztX1A" category="Exclusive Sneak Peek" caption="Gameplay 2" %}
     </div>
   </div>
 
@@ -114,18 +114,108 @@ I led the team to design and implement advanced gameplay mechanics using the Unr
   <div class="row">
     <!-- Video 1 -->
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="wlkGtNo2SXw" category="Exclusive Sneak Peek" caption="Launch Trailer" %}
+        {% include play_youtube.liquid id="wlkGtNo2SXw" category="Exclusive Sneak Peek" caption="Launch Trailer" %}
     </div>
     <!-- Video 2 -->
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="89cXrO1xiy8" category="Exclusive Sneak Peek" caption="AI Bot Battle Mode" %}
+        {% include play_youtube.liquid id="89cXrO1xiy8" category="Exclusive Sneak Peek" caption="AI Bot Battle Mode" %}
     </div>
     <!-- Video 3 -->    
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="mtEtu33Wstc" category="Exclusive Sneak Peek" caption="Play Against Bots" %}
+        {% include play_youtube.liquid id="mtEtu33Wstc" category="Exclusive Sneak Peek" caption="Play Against Bots" %}
     </div>
   </div>
 </div>
+
+<!------------------------------------------------- Image Gallary --------------------------------------------------------------------->
+<div class="container mt-5">
+  <h4 class="mb-4 text-center">Image Gallary</h4>
+  
+  <!-- First Row -->
+  <div class="row">
+    <!-- Video 1 -->
+    <div class="col-12 col-md-4 mb-4">
+        <!-- Image 1 -->
+        {% include image_fancybox.liquid
+            full="/assets/img/portfolio/combatbeans/combatbeans_1_fhd.png"
+            thumb="/assets/img/portfolio/combatbeans/combatbeans_1_n.png"
+            loading="eager"
+            category="Image Gallary"
+        %}
+    </div>
+    <!-- Video 2 -->
+    <div class="col-12 col-md-4 mb-4">
+        <!-- Image 1 -->
+        {% include image_fancybox.liquid
+            full="/assets/img/portfolio/combatbeans/combatbeans_2_fhd.png"
+            thumb="/assets/img/portfolio/combatbeans/combatbeans_2_n.png"
+            loading="eager"
+            category="Image Gallary"
+        %}
+    </div>
+    <!-- Video 3 -->    
+    <div class="col-12 col-md-4 mb-4">
+        <!-- Image 1 -->
+        {% include image_fancybox.liquid
+            full="/assets/img/portfolio/combatbeans/combatbeans_6_fhd.png"
+            thumb="/assets/img/portfolio/combatbeans/combatbeans_6_n.png"
+            loading="eager"
+            category="Image Gallary"
+        %}
+    </div>
+  </div>
+
+  <!-- Second Row -->
+  <div class="row">
+    <!-- Video 1 -->
+    <div class="col-12 col-md-4 mb-4">
+        <!-- Image 1 -->
+        {% include image_fancybox.liquid
+            full="/assets/img/portfolio/combatbeans/combatbeans_5_fhd.png"
+            thumb="/assets/img/portfolio/combatbeans/combatbeans_5_n.png"
+            loading="eager"
+            category="Image Gallary"
+        %}
+    </div>
+    <!-- Video 2 -->
+    <div class="col-12 col-md-4 mb-4">
+        <!-- Image 1 -->
+        {% include image_fancybox.liquid
+            full="/assets/img/portfolio/combatbeans/combatbeans_3_fhd.png"
+            thumb="/assets/img/portfolio/combatbeans/combatbeans_3_n.png"
+            loading="eager"
+            category="Image Gallary"
+        %}
+    </div>
+    <!-- Video 3 -->    
+    <div class="col-12 col-md-4 mb-4">
+        <!-- Image 1 -->
+        {% include image_fancybox.liquid
+            full="/assets/img/portfolio/combatbeans/combatbeans_4_fhd.png"
+            thumb="/assets/img/portfolio/combatbeans/combatbeans_4_n.png"
+            loading="eager"
+            category="Image Gallary"
+        %}
+    </div>
+  </div>
+
+  <!-- third Row -->
+  <div class="row">
+    <!-- Video 1 -->
+    <div class="col-12 col-md-4 mb-4">
+        <!-- Image 1 -->
+        {% include image_fancybox.liquid
+            full="/assets/img/portfolio/combatbeans/combatbeans_7_fhd.png"
+            thumb="/assets/img/portfolio/combatbeans/combatbeans_7_n.png"
+            loading="eager"
+            category="Image Gallary"
+        %}
+    </div>
+  </div>
+</div>
+<p class="text-center small mb-0 mt-2" style="font-weight: 400;">Image & Video courtesy of Peanut Brain Studios.</p>
+
+
 
 
 

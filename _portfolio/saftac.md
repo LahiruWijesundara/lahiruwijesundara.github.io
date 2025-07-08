@@ -112,15 +112,15 @@ Contributed to creating complex systems and enhancing gameplay experiences using
   <div class="row">
     <!-- Video 1 -->
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="u9vzjb-_KxM" category="Exclusive Sneak Peek" caption="BBC Click Feature SimCentirc's SAF-TAC" %}
+        {% include play_youtube.liquid id="u9vzjb-_KxM" category="Exclusive Sneak Peek" caption="BBC Click Feature SimCentirc's SAF-TAC" %}
     </div>
     <!-- Video 2 -->
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="LX9ELWi9jR4" category="Exclusive Sneak Peek" caption="VR Defence Training" %}
+        {% include play_youtube.liquid id="LX9ELWi9jR4" category="Exclusive Sneak Peek" caption="VR Defence Training" %}
     </div>
     <!-- Video 3 -->    
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="bov6rpz4oiA" category="Exclusive Sneak Peek" caption="NATO, UK Fight Club and Royal Marines Use Case" %}
+        {% include play_youtube.liquid id="bov6rpz4oiA" category="Exclusive Sneak Peek" caption="NATO, UK Fight Club and Royal Marines Use Case" %}
     </div>
   </div>
 
@@ -128,30 +128,30 @@ Contributed to creating complex systems and enhancing gameplay experiences using
   <div class="row">
     <!-- Video 1 -->
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="S8nUood9LD4" category="Exclusive Sneak Peek" caption="VR Military Training" %}
+        {% include play_youtube.liquid id="S8nUood9LD4" category="Exclusive Sneak Peek" caption="VR Military Training" %}
     </div>
     <!-- Video 2 -->
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="GAwLb1ATMeU" category="Exclusive Sneak Peek" caption="Royal Marines on Forces TV" %}
+        {% include play_youtube.liquid id="GAwLb1ATMeU" category="Exclusive Sneak Peek" caption="Royal Marines on Forces TV" %}
     </div>
     <!-- Video 3 -->    
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="aa4bHLpDYcA" category="Exclusive Sneak Peek" caption="Army Reserve Use Case" %}
+        {% include play_youtube.liquid id="aa4bHLpDYcA" category="Exclusive Sneak Peek" caption="Army Reserve Use Case" %}
     </div>
 
   <!-- Third Row -->
   <div class="row">
     <!-- Video 1 -->
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="ASK6kZaaDnw" category="Exclusive Sneak Peek" caption="Fire & Movement Realism Demo" %}
+        {% include play_youtube.liquid id="ASK6kZaaDnw" category="Exclusive Sneak Peek" caption="Fire & Movement Realism Demo" %}
     </div>
     <!-- Video 2 -->
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="agqPQpagPd8" category="Exclusive Sneak Peek" caption="Free Roam & Haptic Integration" %}
+        {% include play_youtube.liquid id="agqPQpagPd8" category="Exclusive Sneak Peek" caption="Free Roam & Haptic Integration" %}
     </div>
     <!-- Video 3 -->    
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="St2Jf8UorEs" category="Exclusive Sneak Peek" caption="WIP Demo" %}
+        {% include play_youtube.liquid id="St2Jf8UorEs" category="Exclusive Sneak Peek" caption="WIP Demo" %}
     </div>
   </div>
 </div>

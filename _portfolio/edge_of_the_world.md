@@ -20,20 +20,8 @@ The Edge of The World is an open-world action RPG set in a richly detailed fanta
   <div class="row no-gutters">
  <!-- Image Column -->
     <div class="col-12 col-md-4 mb-3">
-        <!-- Image 1 -->
-        {% include image_fancybox.liquid
-            full="/assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue_fhd.png"
-            thumb="assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue.png"
-            loading="eager"
-            category="screen captures"
-        %}
-        <!-- Image 2 -->
-        {% include image_fancybox.liquid
-            full="/assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue_fhd.png"
-            thumb="assets/img/portfolio/bloodreckoning/bloodreckoning_ingame_dragonsstatue.png"
-            loading="eager"
-            category="screen captures"
-        %}        
+      <!-- Image 1 -->
+        {% include play_youtube.liquid id="2V2SXm6WWiM" category="Exclusive Sneak Peek"%}
     </div>
     <!-- Text Column -->
     <div class="col-12 col-md-8 pl-md-3">
@@ -72,43 +60,6 @@ The Edge of The World is an open-world action RPG set in a richly detailed fanta
           </ul>
         </li>
       </ul>
-    </div>
-  </div>
-</div>
-
-<!-- Video section -->
-<div class="container mt-5">
-  <h4 class="mb-4 text-center">Exclusive Sneak Peek</h4>
-  
-  <!-- First Row -->
-  <div class="row">
-    <!-- Video 1 -->
-    <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="RS1mnk3h4eY" category="Exclusive Sneak Peek" caption="Teaser Trailer" %}
-    </div>
-    <!-- Video 2 -->
-    <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="8P7oaDc8Sr0" category="Exclusive Sneak Peek" caption="Gameplay 1" %}
-    </div>
-    <!-- Video 3 -->    
-    <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="4KzXNyztX1A" category="Exclusive Sneak Peek" caption="Gameplay 2" %}
-    </div>
-  </div>
-
-  <!-- Second Row -->
-  <div class="row">
-    <!-- Video 1 -->
-    <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="wlkGtNo2SXw" category="Exclusive Sneak Peek" caption="Launch Trailer" %}
-    </div>
-    <!-- Video 2 -->
-    <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="89cXrO1xiy8" category="Exclusive Sneak Peek" caption="AI Bot Battle Mode" %}
-    </div>
-    <!-- Video 3 -->    
-    <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="mtEtu33Wstc" category="Exclusive Sneak Peek" caption="Play Against Bots" %}
     </div>
   </div>
 </div>

@@ -62,11 +62,11 @@ I'm leading the team to design and implement gameplay mechanics utilising Unreal
   <div class="row">
     <!-- Video 1 -->
     <div class="col-12 col-md-6 mb-4">
-        {% include play_video.liquid id="s-JFz1mzofo" category="Exclusive Sneak Peek" caption="First Full PvP Test ⚔️🔥" %}
+        {% include play_youtube.liquid id="s-JFz1mzofo" category="Exclusive Sneak Peek" caption="First Full PvP Test ⚔️🔥" %}
     </div>
     <!-- Video 2 -->
     <div class="col-12 col-md-6 mb-4">
-        {% include play_video.liquid id="aWSz-Vu4S_I" category="Exclusive Sneak Peek" caption="Siege Warfare & Dragon Battles" %}
+        {% include play_youtube.liquid id="aWSz-Vu4S_I" category="Exclusive Sneak Peek" caption="Siege Warfare & Dragon Battles" %}
     </div>
 </div>
 
@@ -76,30 +76,30 @@ I'm leading the team to design and implement gameplay mechanics utilising Unreal
   <div class="row">
     <!-- Video 1 -->
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="1qSxjN5K3KA" category="Exclusive Sneak Peek" caption="" %}
+        {% include play_youtube.liquid id="1qSxjN5K3KA" category="Exclusive Sneak Peek" caption="" %}
     </div>
     <!-- Video 2 -->
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="dvSj3HthtBQ" category="Exclusive Sneak Peek" caption="" %}
+        {% include play_youtube.liquid id="dvSj3HthtBQ" category="Exclusive Sneak Peek" caption="" %}
     </div>
     <!-- Video 3 -->    
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="u6U6x6TOGDE" category="Exclusive Sneak Peek" caption="" %}
+        {% include play_youtube.liquid id="u6U6x6TOGDE" category="Exclusive Sneak Peek" caption="" %}
     </div>
   </div>
   <!-- Second Row -->
   <div class="row">
     <!-- Video 1 -->
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="17oDpDXUSeU" category="Exclusive Sneak Peek" caption="" %}
+        {% include play_youtube.liquid id="17oDpDXUSeU" category="Exclusive Sneak Peek" caption="" %}
     </div>
     <!-- Video 2 -->
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="u6U6x6TOGDE" category="Exclusive Sneak Peek" caption="" %}
+        {% include play_youtube.liquid id="u6U6x6TOGDE" category="Exclusive Sneak Peek" caption="" %}
     </div>
     <!-- Video 3 -->    
     <div class="col-12 col-md-4 mb-4">
-        {% include play_video.liquid id="l16FF5Q8Hyg" category="Exclusive Sneak Peek" caption="" %}
+        {% include play_youtube.liquid id="l16FF5Q8Hyg" category="Exclusive Sneak Peek" caption="" %}
     </div>
   </div>
 </div>

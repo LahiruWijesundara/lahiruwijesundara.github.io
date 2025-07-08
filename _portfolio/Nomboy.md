@@ -1,81 +1,99 @@
 ---
 layout: page
-title: Nom Boy's Love for the World
-description: Associated with UWE MSc
-img: assets/img/12.jpg
+title: Nom Boy's Love For The World
+description: Associated with MSc Commercial Games Development Program, University of The West of England, United Kingdom
+img: assets/img/portfolio/nomboy/nomboy_card.png
+permalink: /nomboy/
 importance: 1
 category: Projects
-related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<p align="justify">
+<em><strong>Technologies: </strong>Unity, C#, Cinemachine</em><br>
+<em><a href="https://bitbee-cg.itch.io/nom-boys-love-for-the-world" target="_blank">Itch.io</a></em>
+<br>
+<br>
+Nom Boy's Love for The World is a charming 3D puzzle platformer created as part of the MSc Commercial Games Development program at the University of the West of England (UWE). The game focuses on a young protagonist, Nom Boy, who navigates through various levels, solving puzzles and overcoming obstacles using unique elemental abilities.
+</p>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="container-fluid p-0 m-0">
+  <div class="row no-gutters">
+    <!-- Image Column -->
+    <div class="col-12 col-md-4">
+        <!-- Video 1 -->
+        <div class="mb-4">
+            {% include play_youtube.liquid id="DJL_ji-6faM" category="Exclusive Sneak Peek" caption="Official Trailer"%}
+        </div>
+        <!-- Video 2 -->
+        <div class="mb-4">
+            {% include play_youtube.liquid id="gN37Oun0kJA" category="Exclusive Sneak Peek" caption="Puzzle Solving"%}
+        </div>
+        <!-- Video 3 -->
+        <div class="mb-4">
+            {% include play_youtube.liquid id="HmyJcpHP5V8" category="Exclusive Sneak Peek" caption="Earth Ability"%}
+        </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <!-- Text Column -->
+    <div class="col-12 col-md-8 pl-md-3">
+      <p class="text-justify">Here is a detailed breakdown of my contribution to the project:</p>
+      <ul class="mb-0">
+        <!-- Point 1 -->
+        <li><strong>Player Movement and Mechanics:</strong>
+          <ul>
+            <li>Implemented player movement mechanics, including walking, running, slope movement, and double jump, using Unity's character controller.</li>
+            <li>Created a crowd simulation AI with randomized movement and responsive behavior to external events like detonations.</li>
+            <li>Developed a third-person free-look camera, aim camera, and smooth camera transitions using Cinemachine for an immersive player experience.</li>            
+          </ul>
+        </li>
+        <!-- Point 2 -->
+        <li><strong>Elemental Ability System:</strong>
+          <ul>
+            <li>Designed and implemented an elemental ability system that allows Nom Boy to create solid platforms, shoot fire, and control water, which are essential for solving puzzles and progressing through the game.</li>
+            <li>Integrated save and load functionality to preserve the player's progress and abilities.</li>         
+          </ul>
+        </li>
+        <!-- Point 3 -->
+        <li><strong>User Interface:</strong>
+          <ul>
+            <li>Created a generic cut scene manager to deliver story elements and notifications to the player.</li>     
+          </ul>
+          <ul>
+            <li>Developed UI button animations and sound effects to enhance the interactive experience.</li>     
+          </ul>
+          <ul>
+            <li>Implemented a generic input system supporting both gamepad and keyboard/mouse controls for versatile gameplay.</li>     
+          </ul>
+        </li>
+        <!-- Point 4 -->
+        <li><strong>Graphics and Effects::</strong>
+          <ul>
+            <li>Managed scene lighting and post-processing effects to create visually appealing environments.</li>    
+            <li>Integrated game background music to enhance the overall atmosphere of the game.</li> 
+          </ul>
+        </li>
+        <!-- Point 5 -->
+        <li><strong>Playstation Porting and Optimization::</strong>
+          <ul>
+            <li>Ported the game to PS5, utilizing the console’s advanced features, such as haptic feedback and adaptive triggers, to provide an immersive experience.</li>    
+          </ul>
+        </li>
+        <!-- Point 6 -->
+        <li><strong>Project Management and Collaboration:</strong>
+          <ul>
+            <li>Coordinated with a small team of game designers and artists to ensure cohesive game development.</li>    
+            <li>Used version control systems to manage project files and facilitate team collaboration.</li> 
+          </ul>
+        </li>
+        <!-- Point 7 -->
+        <li><strong>Challenges and Solutions:</strong>
+          <ul>
+            <li>Challenge: Creating a fluid and responsive control system for both keyboard/mouse and gamepad.</li>    
+            <li>Solution: Developed a generic input system that adapts to different control schemes and tested extensively to ensure smooth gameplay.</li> 
+            <li>Challenge: Balancing visual quality with performance, especially when porting to PS5.</li>    
+            <li>Solution: Optimized scene lighting and post-processing effects and utilized PS5’s hardware capabilities to maintain high performance.</li> 
+          </ul>
+        </li>
+      </ul>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
 </div>
-```
-
-{% endraw %}

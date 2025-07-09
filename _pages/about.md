@@ -1,8 +1,8 @@
 ---
 layout: about
-title:
+title: About
 permalink: /
-subtitle:
+subtitle: 
 
 profile:
   align: left
@@ -34,23 +34,6 @@ My research interests span several areas, including <strong><em>Video Game AI, P
 Passionate about bridging academia and industry, I actively explore innovative methods to enhance player experiences through intelligent system design and data-driven insights. My goal is to continue pushing the boundaries of interactive gaming technologies and make meaningful contributions to player-centric game development research.
 </p>
 
-{% include social.liquid %}
-
-<style>
-/* Use !important and target both .social and .social-icons structures, as well as direct Font Awesome classes */
-.social i,
-.social-icons i,
-.fa,
-.fab,
-.fas {
-  font-size: 2.8em !important;  /* Change this value as you wish */
-  line-height: 1.2 !important;
-}
-
-/* Optionally, make the social bar centered and add spacing */
-.social,
-.social-icons {
-  text-align: center !important;
-  margin-bottom: 1em;
-}
-</style>
+<div class="social">
+  <div class="contact-icons">{% include social.liquid %}</div>
+</div>

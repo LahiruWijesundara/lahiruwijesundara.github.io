@@ -410,6 +410,11 @@ ninja.data = [{
           description: "Final Year Bachelor’s Thesis  Associated with University of Perdeniya, Sri Lanka",
           section: "Portfolio",handler: () => {
               window.location.href = "/bsc-thesis/";
+            },},{id: "portfolio-certifications",
+          title: 'Certifications',
+          description: "",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/certifications/";
             },},{id: "portfolio-combat-beans-total-mayhem-third-person-shooter-multiplayer",
           title: 'Combat Beans - Total Mayhem  Third-Person Shooter Multiplayer',
           description: "Senior Unreal Engine Gameplay Programmer (July 2021– Sep 2023)  Peanut Brain Studios, Japan (Remote)",

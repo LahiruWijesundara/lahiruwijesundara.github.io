@@ -69,69 +69,34 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Improving Deep Neural Networks: Hyperparameter tuning, regularisation, and optimisation",
+      "date": "2021-05-08",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/D59C8D9BSG94",
       "icon": "fa-solid fa-clipboard-check"
-    }
+    },
+    {
+      "name": "Neural Networks and Deep Learning",
+      "date": "2021-04-18",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/KAT5QMD76NWY",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Oracle Certified Associate, Java SE 8 Programmer",
+      "date": "2018-01-13",
+      "issuer": "Oracle",
+      "url": "https://www.credly.com/badges/658126a4-363b-4001-b492-ad2595f48143",
+      "icon": "fa-solid fa-clipboard-check"
+    }  
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "A Depth-First Search-Based Approach To Improving The Molecular Pathway Search",
+      "publisher": "Proceedings of the Postgraduate Institute of Science Research Congress, Sri Lanka",
+      "releaseDate": "2018-11-09",
+      "url": "/assets/pdf/bsc_research/PGIS_Research Congress_Abstract_Wijesundara.pdf",
+      "summary": "A Depth First Search-based approach was developed to enhance Molecular Pathway Search (MPS) analysis using parallel computing. By introducing a termination parameter to balance computational power and accuracy, the proposed method significantly reduced execution time, successfully overcoming limitations of sequential algorithms in high-performance molecular pathway analyses."
     }
   ],
   "skills": [

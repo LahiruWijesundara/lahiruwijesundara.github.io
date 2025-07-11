@@ -25,7 +25,7 @@ latest_posts:
 ---
 
 <p align="justify">
-I’m a Gameplay programmer and researcher with a master's degree in Commercial Games Development from the University of the West of England, United Kingdom and over seven years of game industry experience specialising in Unreal Engine and Unity.
+I’m a Gameplay programmer and researcher with a master's degree in Commercial Games Development from the University of the West of England, United Kingdom and over seven years of game industry experience specialising in Unreal Engine and Unity game engines.
 <br>
 <br>
 My research interests span several areas, including <strong><em>Video Game AI, Player Modelling, Game Analytics, Player Behaviour Analysis, Game User Research, and Human Computer Interaction and Extended Reality</em></strong>. Notably, I've conducted comparative research on Deep Q-Networks (DQN) and Proximal Policy Optimisation (PPO) reinforcement learning algorithms using Unity ML-Agents and developed serious games that address real-world challenges, such as transport decarbonisation.

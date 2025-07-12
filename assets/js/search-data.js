@@ -501,11 +501,11 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
-        id: 'social-discord',
-        title: 'Discord',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://discord.com/users/460104965369888768", "_blank");
+          window.open("https://www.linkedin.com/in/lahiru-wijesundara", "_blank");
         },
       },{
         id: 'social-email',
@@ -515,11 +515,25 @@ ninja.data = [{
           window.open("mailto:%6C%6D%77%69%6A%65%73%75%6E%64%61%72%61@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-facebook',
-        title: 'Facebook',
+        id: 'social-x',
+        title: 'X',
         section: 'Socials',
         handler: () => {
-          window.open("https://facebook.com/iamlahiruw", "_blank");
+          window.open("https://twitter.com/IamLahiruW", "_blank");
+        },
+      },{
+        id: 'social-discord',
+        title: 'Discord',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://discord.com/users/460104965369888768", "_blank");
+        },
+      },{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/profile/iamlahiruw.bsky.social", "_blank");
         },
       },{
         id: 'social-instagram',
@@ -529,11 +543,11 @@ ninja.data = [{
           window.open("https://instagram.com/iamlahiruw", "_blank");
         },
       },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
+        id: 'social-facebook',
+        title: 'Facebook',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/lahiru-wijesundara", "_blank");
+          window.open("https://facebook.com/iamlahiruw", "_blank");
         },
       },{
       id: 'light-theme',

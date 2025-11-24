@@ -92,6 +92,7 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick build-essential pkg-config libxml2-dev libxslt1-dev
           bundle install
+          bundle exec ruby -e "require 'nokogiri'; puts 'Nokogiri loaded successfully'" || (bundle exec gem uninstall nokogiri -x --force; bundle exec gem install nokogiri --platform=ruby; bundle install)
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build

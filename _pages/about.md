@@ -25,13 +25,16 @@ latest_posts:
 ---
 
 <p align="justify">
-I’m a Gameplay programmer and researcher with a master's degree in Commercial Games Development from the University of the West of England, United Kingdom and over seven years of game industry experience specialising in Unreal Engine and Unity game engines.
+I’m a Gameplay Programmer with over seven years of professional experience and an MSc in Commercial Games Development from the University of the West of England (UWE), UK. I specialise in Unreal Engine (UE5) and Unity, with a strong focus on moment-to-moment gameplay, combat systems, character mechanics, AI behaviours, networked features, and high-quality player experiences.
 <br>
 <br>
-My research interests span several areas, including <strong><em>Video Game AI, Player Modelling, Game Analytics, Player Behaviour Analysis, Game User Research, and Human Computer Interaction and Extended Reality</em></strong>. Notably, I've conducted comparative research on Deep Q-Networks (DQN) and Proximal Policy Optimisation (PPO) reinforcement learning algorithms using Unity ML-Agents and developed serious games that address real-world challenges, such as transport decarbonisation.
+I’ve contributed to a wide range of game projects across prototyping, pre-production, and full production cycles—building robust gameplay systems, optimising performance, integrating animation and VFX pipelines, and delivering polished features under tight deadlines. I’m comfortable working in fast-paced environments, collaborating with multidisciplinary teams, and taking ownership of features from design to final implementation.
 <br>
 <br>
-Passionate about bridging academia and industry, I actively explore innovative methods to enhance player experiences through intelligent system design and data-driven insights. My goal is to continue pushing the boundaries of interactive gaming technologies and make meaningful contributions to player-centric game development research.
+I also leverage Generative AI tools to support rapid visual exploration, concept iteration, and early art direction—helping teams move faster during prototyping and creative development.
+<br>
+<br>
+I’m passionate about building responsive, well-crafted gameplay and contributing to high-quality, large-scale game experiences. I’m driven, detail-oriented, and always focused on delivering features that feel great, play great, and enhance the overall player experience.
 </p>
 
 <div class="social">

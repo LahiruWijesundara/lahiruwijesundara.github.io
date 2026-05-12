@@ -5,7 +5,7 @@ permalink: /portfolio/
 description: Here is my portfolio sectioned in to different aspects along with descriptions. Click on images for more details.
 nav: true
 nav_order: 3
-display_categories: [Work Experience, Projects, Research, Publications, Game Jams, Education, Certificates, Technical Skills, Interests, References]
+display_categories: [Work Experience, Projects, Research, Publications, Game Jams, Education, Certificates, Technical Skills, Interests]
 horizontal: false
 toc:
   sidebar: left

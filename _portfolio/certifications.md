@@ -1,8 +1,13 @@
 ---
-layout: default
+layout: page
+title: Certifications
 category: Certifications
+_styles: >
+  .post-header { display: none; }
+  .post > article { margin-top: 0; padding-top: 0; }
 ---
-<article> 
+
+<article>
   <div class="cv">
     {% for data in site.data.resume %}
       {% if data[0] == 'certificates' %}

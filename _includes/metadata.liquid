@@ -28,12 +28,12 @@
   {% endif %}
 
   {% if page.url == '/blog/index.html' %}
-    {{ page.title }} | {{ title }}
+    {{ page.title | strip_html }} | {{ title }}
   {% elsif page.title != 'blank' and page.url != '/' %}
     {% if page.title == null or page.title == '' %}
       {{ page.date | date: '%Y' }} | {{ title }}
     {% else %}
-      {{ page.title }} | {{ title }}
+      {{ page.title | strip_html }} | {{ title }}
     {% endif %}
   {% else %}
     {{ title }}

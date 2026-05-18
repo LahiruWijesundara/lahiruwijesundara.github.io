@@ -1,33 +1,8 @@
-<div class="list-groups">
+{% assign pill_colors = "blue,purple,green,orange,pink,teal" | split: "," %}
+<div class="apple-tag-grid interests-tag-grid">
   {% for content in data[1] %}
-    <div class="list-group col-md-3">
-      <table class="table-cv list-group-table">
-        <tbody>
-          <tr>
-            {% if content.icon %}
-              <td class="list-group-category-icon">
-                <i class="{{ content.icon }}"></i>
-              </td>
-            {% else %}
-              <td class="list-group-category-icon"></td>
-            {% endif %}
-            <!-- Calculate colspan number for category title -->
-            {% assign i = 1 %}
-            {% for item in content.items %}
-              {% assign i = i | plus: 1 %}
-            {% endfor %}
-            <td colspan="{{ i }}" class="list-group-category">{{ content.name }}</td>
-          </tr>
-          {% for item in content.keywords %}
-            <tr>
-              <td></td>
-              <td class="list-group-name">
-                <b>{{ item }}</b>
-              </td>
-            </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-    </div>
+    {% assign pidx = forloop.index0 | modulo: 6 %}
+    {% assign pill_color = pill_colors[pidx] %}
+    <span class="apple-pill apple-pill--{{ pill_color }}">{{ content.name }}</span>
   {% endfor %}
 </div>

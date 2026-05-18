@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Lahiru's Notes # blog_name will be displayed in your blog page
+blog_description: Game dev, AI/ML, and engineering behind the scenes
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -122,12 +122,6 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -193,7 +187,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-  - _pages/blog.md
+  - _samples/
   - _pages/profiles.md
   - _pages/repositories.md
   - _pages/teaching.md
@@ -226,12 +220,17 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
-# Sitemap settings
+# Sitemap & layout defaults
 defaults:
   - scope:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
 
 sass:
   style: compressed
@@ -266,8 +265,8 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["ai", "game-dev", "unity", "unreal", "python", "devops"] # these tags will be displayed on the front page of your blog
+display_categories: ["tutorials", "retrospectives", "research-notes"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -451,7 +450,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:

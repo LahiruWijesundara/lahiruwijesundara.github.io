@@ -1065,6 +1065,13 @@ progress::-moz-progress-bar {
 nav[data-toggle="toc"] {
   top: 5rem;
 
+  // Always show nested TOC entries (e.g. Work Experience sub-sections)
+  // instead of bootstrap-toc's default behavior of hiding them until scrolled to.
+  .nav-link + ul,
+  .nav .nav {
+    display: block !important;
+  }
+
   .nav .nav > li > a {
     font-size: 0.75rem;
   }
@@ -1140,6 +1147,30 @@ nav[data-toggle="toc"] {
 
 #toc-sidebar {
   z-index: 1;
+}
+
+/* Scale down card typography for the 5-column grid */
+.row-cols-md-5 .card-title {
+  font-size: 0.8rem;
+}
+
+.row-cols-md-5 .card-text {
+  font-size: 0.75rem;
+}
+
+/* Full-width layout for pages with a TOC sidebar:
+   keeps the TOC narrow and lets the main content stretch across the viewport. */
+.toc-sidebar-layout {
+  @media (min-width: 992px) {
+    > .row > .col-sm-2 {
+      flex: 0 0 200px;
+      max-width: 200px;
+    }
+    > .row > .col-sm-10 {
+      flex: 0 0 calc(100% - 200px);
+      max-width: calc(100% - 200px);
+    }
+  }
 }
 
 .echarts {

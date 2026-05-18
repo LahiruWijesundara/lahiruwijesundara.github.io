@@ -2,10 +2,18 @@
 layout: page
 title: Portfolio
 permalink: /portfolio/
-description: Here is my portfolio sectioned in to different aspects along with descriptions. Click on images for more details.
+description:
+_styles: >
+  .post-header { display: none; }
+  .post > article { margin-top: 0; padding-top: 0; }
+  .post { margin-top: 0; padding-top: 0; }
+  .toc-sidebar-layout.mt-5 { margin-top: 1rem !important; }
+  .projects h2.category:first-of-type,
+  .projects h3.category:first-of-type { margin-top: 0; }
+  .projects h2.category, .projects h3.category { color: var(--apple-text-sub); font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; border-bottom: 1px solid var(--apple-border); padding-top: 0.25rem; }
 nav: true
 nav_order: 3
-display_categories: [Work Experience, Projects, Research, Publications, Game Jams, Education, Certificates, Technical Skills, Interests]
+display_categories: [Work Experience, Research, Publications, Game Jams, Projects, Education, Certificates, Technical Skills, Interests]
 horizontal: false
 toc:
   sidebar: left
@@ -100,6 +108,22 @@ toc:
             {% endfor %}
           </div>
         </article>
+      <!-- Work Experience with AI Engineer and Game Dev sub-sections -->
+      {% elsif category == "Work Experience" %}
+        {% assign ai_projects = site.portfolio | where: "category", "Work Experience - AI Engineer" | sort: "importance" %}
+        {% assign gamedev_projects = site.portfolio | where: "category", "Work Experience - Game Dev" | sort: "importance" %}
+        <h3 id="AI Engineer" class="category">AI Engineer</h3>
+        <div class="row row-cols-2 row-cols-md-5">
+          {% for project in ai_projects %}
+            {% include projects.liquid %}
+          {% endfor %}
+        </div>
+        <h3 id="Game Dev" class="category">Gameplay Engineer</h3>
+        <div class="row row-cols-2 row-cols-md-5">
+          {% for project in gamedev_projects %}
+            {% include projects.liquid %}
+          {% endfor %}
+        </div>
       {% else %}
         <!-- Generate cards for each portfolio (_portfolio folder) -->
         {% if page.horizontal %}
@@ -111,7 +135,7 @@ toc:
           </div>
         </div>
         {% else %}
-        <div class="row row-cols-1 row-cols-md-3">
+        <div class="row row-cols-2 row-cols-md-5">
           {% for project in sorted_projects %}
             {% include projects.liquid %}
           {% endfor %}
@@ -132,7 +156,7 @@ toc:
         </div>
       </div>
       {% else %}
-      <div class="row row-cols-1 row-cols-md-3">
+      <div class="row row-cols-2 row-cols-md-5">
         {% for project in sorted_projects %}
           {% include projects.liquid %}
         {% endfor %}
@@ -140,3 +164,62 @@ toc:
     {% endif %}
   {% endif %}
 </div>
+
+<script>
+  window.addEventListener("load", function () {
+    var navbar = document.getElementById("navbar");
+    var target = document.getElementById("Work Experience");
+
+    function navHeight() {
+      return navbar ? navbar.offsetHeight : 56;
+    }
+
+    function getMinScroll() {
+      if (!target) return 0;
+      return target.getBoundingClientRect().top + window.pageYOffset - navHeight();
+    }
+
+    // Initial scroll to Work Experience if no hash in URL
+    if (!window.location.hash) {
+      setTimeout(function () {
+        window.scrollTo({ top: getMinScroll(), behavior: "instant" });
+        window.dispatchEvent(new Event("scroll"));
+      }, 150);
+    }
+
+    // Prevent scrolling above Work Experience section
+    window.addEventListener("scroll", function () {
+      if (window.pageYOffset < getMinScroll()) {
+        window.scrollTo({ top: getMinScroll(), behavior: "instant" });
+      }
+    }, { passive: false });
+
+    // Sync TOC active state with the h2/h3 heading that is visually at the top
+    // (IntersectionObserver watches the actual heading elements, not the anchor wrappers,
+    //  avoiding the margin-top offset mismatch that scrollspy suffers from)
+    if ("IntersectionObserver" in window && typeof $ !== "undefined") {
+      var tocLinks = {};
+      $("#toc-sidebar a[href]").each(function () {
+        var id = decodeURIComponent($(this).attr("href").replace(/^.*#/, ""));
+        tocLinks[id] = $(this);
+      });
+
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          var anchor = entry.target.closest("a[id]");
+          var id = anchor ? anchor.id : entry.target.id;
+          if (!id || !tocLinks[id]) return;
+          $("#toc-sidebar .nav-link.active").removeClass("active");
+          tocLinks[id].addClass("active");
+        });
+      }, {
+        rootMargin: "-" + navHeight() + "px 0px -60% 0px"
+      });
+
+      document.querySelectorAll(".projects h2.category, .projects h3.category").forEach(function (h) {
+        observer.observe(h);
+      });
+    }
+  });
+</script>

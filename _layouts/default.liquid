@@ -21,7 +21,7 @@
     {% include header.liquid %}
 
     <!-- Content -->
-    <div class="container mt-5" role="main">
+    <div class="{% if page.toc and page.toc.sidebar %}container-fluid px-md-4 toc-sidebar-layout{% else %}container{% endif %} mt-5" role="main">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
           <div class="row">

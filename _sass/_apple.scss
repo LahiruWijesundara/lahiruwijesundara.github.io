@@ -664,6 +664,17 @@ a:hover > .card {
   }
 }
 
+@media (max-width: 480px) {
+  .apple-post-content {
+    padding-inline: 1rem;
+
+    p, li {
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+  }
+}
+
 // ── 10. CV ───────────────────────────────────────────────────────────────────
 
 .cv {
@@ -822,14 +833,21 @@ figure.cover {
 
 .apple-hero {
   position: relative;
-  margin: 0 -1.5rem 3rem;
-  padding: 5rem 1.5rem 4rem;
+  margin: 0 0 3rem;
+  padding: 3rem 1.25rem 2.5rem;
   text-align: center;
   overflow: hidden;
   background:
     radial-gradient(1200px 600px at 50% -10%, var(--apple-accent-soft), transparent 60%),
     linear-gradient(180deg, var(--apple-surface-alt) 0%, var(--apple-surface) 100%);
   border-bottom: 1px solid var(--apple-border);
+}
+
+@media (min-width: 768px) {
+  .apple-hero {
+    margin: 0 -1.5rem 3rem;
+    padding: 5rem 1.5rem 4rem;
+  }
 }
 
 .apple-eyebrow {
@@ -844,7 +862,7 @@ figure.cover {
 
 .apple-title {
   font-family: var(--apple-font);
-  font-size: clamp(2.25rem, 5.5vw, 4rem);
+  font-size: clamp(2rem, 6vw, 4rem);
   font-weight: 700;
   letter-spacing: -0.025em;
   line-height: 1.05;
@@ -1104,6 +1122,9 @@ figure.cover {
 }
 
 .apple-shot {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   position: relative;
   background: var(--apple-surface);
   border: 1px solid var(--apple-border);
@@ -1132,6 +1153,8 @@ figure.cover {
   &:hover img { transform: scale(1.02); }
 
   .apple-shot-caption {
+    margin-top: auto;
+    flex-shrink: 0;
     padding: 0.85rem 1rem 1rem;
     font-size: 0.8125rem;
     color: var(--apple-text-sub);
@@ -1233,6 +1256,249 @@ figure.cover {
   text-decoration: none;
 
   &:hover { text-decoration: underline; }
+}
+
+// --- Sample briefing showcase (Telegram light chat preview) ---
+
+.apple-section--briefings {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.apple-briefing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  align-items: start;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.apple-briefing-grid > .apple-briefing-wrap {
+  min-width: 0;
+}
+
+.apple-briefing-date {
+  margin: 0 0 0.65rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--apple-text-sub);
+}
+
+.post article .apple-briefing-wrap {
+  max-width: 680px;
+  margin: 0 auto;
+
+  em, i { font-style: normal; }
+
+  a {
+    color: #168acd;
+    text-decoration: none;
+
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.post article .apple-briefing-grid .apple-briefing-wrap {
+  max-width: none;
+  margin: 0;
+}
+
+.telegram-chat {
+  --tg-bg: #e8edf2;
+  --tg-bubble: #ffffff;
+  --tg-text: #1c2733;
+  --tg-muted: #6b7c8f;
+  --tg-sender: #168acd;
+  --tg-code-bg: #f0f3f6;
+  --tg-code-text: #2c3e50;
+
+  background: var(--tg-bg);
+  border-radius: 14px;
+  padding: 18px 16px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  @media (max-width: 600px) {
+    padding: 14px 10px 16px;
+    border-radius: 12px;
+  }
+}
+
+.telegram-message {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.telegram-avatar {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 2px;
+  border-radius: 999px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  background: #e8edf2;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  user-select: none;
+}
+
+.telegram-message-body {
+  flex: 1;
+  min-width: 0;
+  max-width: calc(100% - 48px);
+}
+
+.telegram-sender {
+  display: block;
+  margin: 0 0 4px 2px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--tg-sender);
+  letter-spacing: 0;
+}
+
+.telegram-bubble {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+  padding: 10px 13px 28px;
+  background: var(--tg-bubble);
+  border-radius: 0 12px 12px 12px;
+  color: var(--tg-text);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 2px 8px rgba(0, 0, 0, 0.06);
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -6px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 12px 8px;
+    border-color: transparent transparent var(--tg-bubble) transparent;
+  }
+}
+
+.telegram-bubble-text {
+  font-size: 15px;
+  line-height: 1.38;
+  letter-spacing: 0.01em;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  color: var(--tg-text);
+
+  p,
+  li,
+  span {
+    color: var(--tg-text);
+  }
+
+  .telegram-line {
+    margin: 0 0 7px;
+    color: var(--tg-text);
+
+    &:last-child { margin-bottom: 0; }
+  }
+
+  .telegram-line--head {
+    margin-top: 12px;
+    margin-bottom: 6px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  ul {
+    margin: 0 0 9px;
+    padding: 0 0 0 1.15em;
+    list-style: disc;
+
+    li {
+      margin: 0 0 6px;
+      padding: 0;
+      color: var(--tg-text);
+
+      &:last-child { margin-bottom: 0; }
+
+      p {
+        display: inline;
+        margin: 0;
+        color: var(--tg-text);
+      }
+    }
+  }
+
+  .telegram-sublist {
+    margin: 3px 0 11px;
+    padding-left: 1em;
+    list-style: circle;
+  }
+
+  strong {
+    font-weight: 600;
+    color: var(--tg-text);
+  }
+
+  em { font-style: normal; }
+
+  code {
+    font-family: ui-monospace, "Cascadia Code", "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.9em;
+    background: var(--tg-code-bg);
+    color: var(--tg-code-text);
+    padding: 1px 5px;
+    border-radius: 3px;
+    border: none;
+  }
+}
+
+.telegram-time {
+  position: absolute;
+  right: 10px;
+  bottom: 6px;
+  font-size: 0.6875rem;
+  line-height: 1;
+  color: var(--tg-muted);
+  font-variant-numeric: tabular-nums;
+  pointer-events: none;
+  user-select: none;
+}
+
+.post article .apple-briefing-wrap .telegram-chat {
+  color: var(--tg-text);
+
+  .telegram-sender {
+    color: var(--tg-sender);
+  }
+
+  .telegram-bubble-text,
+  .telegram-bubble-text p,
+  .telegram-bubble-text li,
+  .telegram-bubble-text strong {
+    color: var(--tg-text);
+  }
+
+  .telegram-time {
+    color: var(--tg-muted);
+  }
+
+  ul li::marker {
+    color: var(--tg-muted);
+  }
 }
 
 // ── 15. 404 page ─────────────────────────────────────────────────────────────

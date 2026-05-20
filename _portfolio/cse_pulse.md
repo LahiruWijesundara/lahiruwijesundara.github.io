@@ -1,11 +1,11 @@
 ---
 layout: page
 title: CSE Pulse <br> <em>Full-Stack AI-Powered Portfolio Tracker</em>
-img: assets/img/portfolio/csepulse/CSE-Pulse-Card.png
+img: assets/img/portfolio/csepulse/cse-pulse-card-minimal.png
 permalink: /cse-pulse/
 importance: 1
 category: Work Experience - AI Engineer
-description: "AI Engineer (Jan 2026 – Present) <br> CSE Pulse, Sri Lanka"
+description: "AI Engineer (Apr 2026 – Present) <br> Claude Code, Next.js 16, PostgreSQL, React 19"
 _styles: >
   .post-header { display: none; }
   .post > article { margin-top: 0; padding-top: 0; }
@@ -14,14 +14,14 @@ _styles: >
 {% include apple/hero.liquid
     eyebrow="Client Project · Jan 2026 – Present"
     title="CSE Pulse"
-    subtitle="A full-stack web application for retail investors on the Colombo Stock Exchange — live market data, portfolio management, multi-indicator technical analysis, and AI-driven trade verdicts with dual-LLM fallback, all in one platform."
+    subtitle="A full-stack web application for retail investors on the Colombo Stock Exchange including live market data, portfolio management, multi-indicator technical analysis, and AI-driven trade verdicts with dual-LLM fallback, all in one platform."
     meta="!Full-Stack AI Engineer,CSE Pulse,Sri Lanka"
-    tech="Next.js 16,React 19,PostgreSQL,Prisma 7,Anthropic SDK,Google Gemini"
+    tech="Next.js 16,React 19,PostgreSQL,Prisma 7,Claude API, OpenAI API, Gemini API, Claude Code, Codex"
 %}
 
 <div class="apple-overview">
   <p>
-    <span class="lead-emphasis">CSE Pulse</span> is a web application built for retail investors on the Colombo Stock Exchange. No single local platform covered the complete investor workflow — monitoring the market at open, tracking unrealized P&L, running technical analysis, getting AI trade verdicts, and analysing annual and quarterly financial reports. CSE Pulse brings all of it together.
+    <span class="lead-emphasis">CSE Pulse</span> is a web application built for retail investors on the Colombo Stock Exchange. No single local platform covered the complete investor workflow that monitoring the market at open, tracking unrealized P&L, running technical analysis, getting AI trade verdicts, and analysing annual and quarterly financial reports. CSE Pulse brings all of it together.
   </p>
   <p>
     I designed and built the entire application: the data pipelines ingesting live CSE market data, the AI verdict engine with dual-provider fallback, the PDF report analyser with sector-adaptive KPIs, the news aggregation and fuzzy symbol-matching layer, and the full front-end experience.
@@ -46,7 +46,7 @@ _styles: >
     <article class="apple-card">
       <span class="apple-icon">🤖</span>
       <h3>AI Trade Verdicts</h3>
-      <p>Separate swing-trade and long-term verdicts per symbol — each with a BUY/HOLD/SELL signal, confidence score, three reasoning points, and an invalidation condition. The AI synthesizes technical signals, live price data, latest financials, news sentiment, and director dealings. Powered by <strong>Anthropic Claude</strong> with <strong>Google Gemini 2.5 Flash</strong> as automatic fallback; verdicts are cached for 12 hours.</p>
+      <p>Separate swing-trade and long-term verdicts per symbol — each with a BUY/HOLD/SELL signal, confidence score, three reasoning points, and an invalidation condition. The AI synthesizes technical signals, live price data, latest financials, news sentiment, and director dealings. Powered by <strong>Anthropic API</strong> with <strong>Google Gemini API</strong> as automatic fallback; verdicts are cached for 12 hours.</p>
     </article>
 
     <article class="apple-card">

@@ -208,12 +208,20 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-.profile.float-right {
-  margin-left: 1rem;
+.profile {
+  margin-bottom: 1.5rem;
 }
 
-.profile.float-left {
-  margin-right: 1rem;
+@media (min-width: 576px) {
+  .profile.float-right {
+    margin-left: 1rem;
+    margin-bottom: 0;
+  }
+
+  .profile.float-left {
+    margin-right: 1rem;
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width: 576px) {
@@ -345,6 +353,10 @@ ul.task-list input[type="checkbox"] {
 }
 
 .navbar-toggler {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0.25rem 0.5rem;
+
   .icon-bar {
     display: block;
     width: 22px;
@@ -386,10 +398,15 @@ ul.task-list input[type="checkbox"] {
 
 #light-toggle,
 #search-toggle {
-  padding: 0;
+  padding: 0.5rem;
   border: 0;
   background-color: inherit;
   color: var(--global-text-color);
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
   &:hover {
     color: var(--global-hover-color);
@@ -475,12 +492,12 @@ ul.task-list input[type="checkbox"] {
 // Footer
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 
   .container {
     color: var(--global-footer-text-color);
-    padding-top: 9px;
-    padding-bottom: 8px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
     text-align: center;
   }
 
@@ -530,6 +547,9 @@ footer.sticky-bottom {
   background-color: transparent;
   border: none;
   color: var(--global-text-color);
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .date-column {
@@ -681,6 +701,13 @@ footer.sticky-bottom {
   .grid-item {
     width: 250px;
     margin-bottom: 10px;
+  }
+
+  @media (max-width: 575px) {
+    .grid-sizer,
+    .grid-item {
+      width: 100%;
+    }
   }
 
   h2.category {
@@ -882,6 +909,8 @@ pre {
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
+  overflow-x: auto;
+  max-width: 100%;
 
   pre,
   code {
@@ -1325,9 +1354,28 @@ ninja-keys::part(ninja-input-wrapper) {
   .newsletter-error {
     font-size: 16px !important;
   }
+
   .newsletter-form-container {
     margin-right: 20px;
     margin-left: 20px;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+
+  .newsletter-form-input {
+    margin: 0;
+    max-width: none;
+  }
+
+  .newsletter-form-button,
+  .newsletter-loading-button {
+    width: 100%;
+    max-width: none;
+    justify-content: center;
   }
 }
 

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: CSE Pulse <br> <em>Full-Stack AI-Powered Portfolio Tracker</em>
+title: CSE Pulse <br> <em>AI-Powered Portfolio Tracker</em>
 img: assets/img/portfolio/csepulse/cse-pulse-card-minimal.png
 permalink: /cse-pulse/
 importance: 1
 category: Work Experience - AI Engineer
-description: "AI Engineer (Apr 2026 – Present) <br> Claude Code, Next.js 16, PostgreSQL, React 19"
+description: "AI Engineer (Nov 2025 – Present) <br> Claude Code, Next.js 16, PostgreSQL, React 19"
 _styles: >
   .post-header { display: none; }
   .post > article { margin-top: 0; padding-top: 0; }
@@ -152,32 +152,132 @@ _styles: >
 
     <figure class="apple-shot">
       {% include image_fancybox.liquid
-          full="/assets/img/portfolio/csepulse/CSE-Pulse-Card.png"
-          thumb="assets/img/portfolio/csepulse/CSE-Pulse-Card.png"
+          full="/assets/img/portfolio/csepulse/cse-pulse-dashboard.png"
+          thumb="assets/img/portfolio/csepulse/cse-pulse-dashboard.png"
           loading="eager"
           category="screen captures"
       %}
-      <figcaption class="apple-shot-caption">CSE Pulse · Overview</figcaption>
+      <figcaption class="apple-shot-caption">Dashboard Overview</figcaption>
     </figure>
 
     <figure class="apple-shot">
       {% include image_fancybox.liquid
-          full="/assets/img/portfolio/csepulse/cse-pulse-news.png"
-          thumb="assets/img/portfolio/csepulse/cse-pulse-news.png"
+          full="/assets/img/portfolio/csepulse/cse-pulse-portfolio.png"
+          thumb="assets/img/portfolio/csepulse/cse-pulse-portfolio.png"
           loading="lazy"
           category="screen captures"
       %}
-      <figcaption class="apple-shot-caption">News &amp; Sentiment</figcaption>
+      <figcaption class="apple-shot-caption">Portfolio Holdings</figcaption>
     </figure>
 
     <figure class="apple-shot">
       {% include image_fancybox.liquid
-          full="/assets/img/portfolio/csepulse/cse-pulse-report.png"
-          thumb="assets/img/portfolio/csepulse/cse-pulse-report.png"
+          full="/assets/img/portfolio/csepulse/cse-pulse-analysis.png"
+          thumb="assets/img/portfolio/csepulse/cse-pulse-analysis.png"
           loading="lazy"
           category="screen captures"
       %}
-      <figcaption class="apple-shot-caption">Company Report Analysis</figcaption>
+      <figcaption class="apple-shot-caption">Technical Analysis</figcaption>
+    </figure>
+
+    <figure class="apple-shot">
+      {% include image_fancybox.liquid
+          full="/assets/img/portfolio/csepulse/cse-pulse-ai-verdicts.png"
+          thumb="assets/img/portfolio/csepulse/cse-pulse-ai-verdicts.png"
+          loading="lazy"
+          category="screen captures"
+      %}
+      <figcaption class="apple-shot-caption">AI Trade Verdicts</figcaption>
+    </figure>
+
+    <figure class="apple-shot">
+      {% include image_fancybox.liquid
+          full="/assets/img/portfolio/csepulse/cse-pulse-reports.png"
+          thumb="assets/img/portfolio/csepulse/cse-pulse-reports.png"
+          loading="lazy"
+          category="screen captures"
+      %}
+      <figcaption class="apple-shot-caption">Report Analyzer</figcaption>
+    </figure>
+
+    <figure class="apple-shot">
+      {% include image_fancybox.liquid
+          full="/assets/img/portfolio/csepulse/cse-pulse-news-live.png"
+          thumb="assets/img/portfolio/csepulse/cse-pulse-news-live.png"
+          loading="lazy"
+          category="screen captures"
+      %}
+      <figcaption class="apple-shot-caption">News and Sentiment</figcaption>
+    </figure>
+
+    <figure class="apple-shot">
+      {% include image_fancybox.liquid
+          full="/assets/img/portfolio/csepulse/cse-pulse-diversification.png"
+          thumb="assets/img/portfolio/csepulse/cse-pulse-diversification.png"
+          loading="lazy"
+          category="screen captures"
+      %}
+      <figcaption class="apple-shot-caption">Portfolio Diversification</figcaption>
+    </figure>
+
+    <figure class="apple-shot">
+      {% include image_fancybox.liquid
+          full="/assets/img/portfolio/csepulse/cse-pulse-dividends.png"
+          thumb="assets/img/portfolio/csepulse/cse-pulse-dividends.png"
+          loading="lazy"
+          category="screen captures"
+      %}
+      <figcaption class="apple-shot-caption">Dividends Calendar</figcaption>
+    </figure>
+
+    <figure class="apple-shot">
+      {% include image_fancybox.liquid
+          full="/assets/img/portfolio/csepulse/cse-pulse-risk.png"
+          thumb="assets/img/portfolio/csepulse/cse-pulse-risk.png"
+          loading="lazy"
+          category="screen captures"
+      %}
+      <figcaption class="apple-shot-caption">Risk Analysis</figcaption>
+    </figure>
+
+    <figure class="apple-shot">
+      {% include image_fancybox.liquid
+          full="/assets/img/portfolio/csepulse/cse-pulse-realized-pnl.png"
+          thumb="assets/img/portfolio/csepulse/cse-pulse-realized-pnl.png"
+          loading="lazy"
+          category="screen captures"
+      %}
+      <figcaption class="apple-shot-caption">Realized P&amp;L</figcaption>
+    </figure>
+
+    <figure class="apple-shot">
+      {% include image_fancybox.liquid
+          full="/assets/img/portfolio/csepulse/cse-pulse-watchlist.png"
+          thumb="assets/img/portfolio/csepulse/cse-pulse-watchlist.png"
+          loading="lazy"
+          category="screen captures"
+      %}
+      <figcaption class="apple-shot-caption">Watchlist</figcaption>
+    </figure>
+
+    <figure class="apple-shot">
+      {% include image_fancybox.liquid
+          full="/assets/img/portfolio/csepulse/cse-pulse-companies.png"
+          thumb="assets/img/portfolio/csepulse/cse-pulse-companies.png"
+          loading="lazy"
+          category="screen captures"
+      %}
+      <figcaption class="apple-shot-caption">Companies Directory</figcaption>
+    </figure>
+
+    <figure class="apple-shot">
+      {% include image_fancybox.liquid
+          full="/assets/img/portfolio/csepulse/cse-pulse-settings.png"
+          thumb="assets/img/portfolio/csepulse/cse-pulse-settings.png"
+          loading="lazy"
+          category="screen captures"
+      %}
+      <figcaption class="apple-shot-caption">Settings and Telegram Briefings</figcaption>
     </figure>
 
   </div>

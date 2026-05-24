@@ -1,11 +1,11 @@
 ---
 layout: page
-title: AI Tech Briefing Agent <br> <em>Autonomous AI Trend Intelligence System</em>
+title: AI Tech Briefing Agent <br> <em>Autonomous AI Trends Analyzer</em>
 img: assets/img/portfolio/aibriefing/ai-tech-briefing-card.png
 permalink: /ai-tech-briefing-agent/
 importance: 2
 category: Work Experience - AI Engineer
-description: "AI Engineer (Feb 2026) <br> OpenClaw, Zapier MCP, Hostinger VPS"
+description: "AI Engineer (Jan 2026) <br> OpenClaw, Zapier MCP, Hostinger VPS"
 _styles: >
   .post-header { display: none; }
   .post > article { margin-top: 0; padding-top: 0; }

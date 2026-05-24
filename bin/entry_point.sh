@@ -21,17 +21,24 @@ manage_gemfile_lock() {
 
 start_jekyll() {
     manage_gemfile_lock
-    bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace --force_polling &
+    bundle exec jekyll serve --watch --force_polling --port=8080 --host=0.0.0.0 --livereload --livereload-port=35729 --drafts --trace &
 }
 
 start_jekyll
 
+last_config_checksum="$(sha256sum "$CONFIG_FILE" | awk '{print $1}')"
+
 while true; do
-    inotifywait -q -e modify,move,create,delete $CONFIG_FILE
-    if [ $? -eq 0 ]; then
+    sleep 2
+    current_config_checksum="$(sha256sum "$CONFIG_FILE" | awk '{print $1}')"
+    if [ "$current_config_checksum" != "$last_config_checksum" ]; then
         echo "Change detected to $CONFIG_FILE, restarting Jekyll"
-        jekyll_pid=$(pgrep -f jekyll)
-        kill -KILL $jekyll_pid
+        jekyll_pid="$(pgrep -f 'jekyll serve' || true)"
+        if [ -n "$jekyll_pid" ]; then
+            kill -TERM $jekyll_pid
+            wait $jekyll_pid 2>/dev/null || true
+        fi
+        last_config_checksum="$current_config_checksum"
         start_jekyll
     fi
 done

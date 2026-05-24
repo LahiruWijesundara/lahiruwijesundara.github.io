@@ -155,6 +155,16 @@ footer.sticky-bottom {
   margin-top: 0.75rem;
 }
 
+.profile .profile-contact {
+  margin-top: 0.85rem;
+  text-align: center;
+
+  .contact-icons {
+    font-size: 1.45rem;
+    line-height: 1;
+  }
+}
+
 // ── 8. Cards ────────────────────────────────────────────────────────────────
 
 .card {
@@ -1723,4 +1733,10 @@ html[data-theme="dark"] {
     background: none;
     padding: 0;
   }
+}
+
+.home-tech-stack .apple-tag {
+  background: #e9f8ee;
+  border-color: #b8e6c6;
+  color: #247a3d;
 }

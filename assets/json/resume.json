@@ -112,18 +112,101 @@
   ],
   "skills": [
     {
-      "name": "Programming Languages",
+      "name": "AI Engineering & Agent Workflows",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "C",
-        "C++",
-        "Python",
-        "C#",
-        "R",
-        "PyTorch",
-        "Java",
-        "MATLAB"
+        "Agentic Workflows",
+        "Multi-Agent Orchestration",
+        "AI Automation",
+        "Claude Code",
+        "Claude Code Skills",
+        "Claude Cowork",
+        "Codex",
+        "Cursor",
+        "OpenClaw"
+      ]
+    },
+    {
+      "name": "LLM APIs & Model Routing",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Anthropic API",
+        "OpenAI API",
+        "Google Gemini API",
+        "Vercel AI Gateway",
+        "Vercel AI SDK",
+        "Claude Opus",
+        "Gemini Flash",
+        "Dual-Model Fallback",
+        "LLM Summarisation",
+        "Structured Extraction"
+      ]
+    },
+    {
+      "name": "Full-Stack Web Development",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Next.js 16",
+        "React 19",
+        "TypeScript",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "NextAuth v5",
+        "Server-Sent Events",
+        "API Routes",
+        "Zod"
+      ]
+    },
+    {
+      "name": "Data, Backend & Analytics",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "PostgreSQL",
+        "Neon",
+        "Prisma 7",
+        "Vercel Blob",
+        "PDF Analysis",
+        "Technical Indicators",
+        "News Sentiment",
+        "Recharts",
+        "p-queue",
+        "node-cron"
+      ]
+    },
+    {
+      "name": "MCP, Automation & Integrations",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Model Context Protocol",
+        "Zapier MCP",
+        "YouTube Data API",
+        "Telegram Bot API",
+        "Notion API",
+        "RSS Feeds",
+        "Google APIs",
+        "Workflow Automation",
+        "Scheduled Briefings"
+      ]
+    },
+    {
+      "name": "Deployment & Developer Tooling",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Vercel",
+        "Vercel Workflow",
+        "Vercel Fluid Compute",
+        "Hostinger VPS",
+        "Node.js",
+        "pnpm Workspaces",
+        "Git",
+        "Self-Hosted Services",
+        "Production Monitoring"
       ]
     },
     {
@@ -133,40 +216,6 @@
       "keywords": [
         "Unreal Engine 4 & 5",
         "Unity"
-      ]
-    },
-    {
-      "name": "Machine Learning",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "TensorFlow",
-        "Keras",
-        "Unity ML-Agents Toolkit",
-        "Scikit-learn",
-        "IBM SPSS"
-      ]
-    },
-    {
-      "name": "Project Management Tools",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "JIRA",
-        "Trello",
-        "Confluence",
-        "Miro",
-        "Notion",
-        "Zoho"
-      ]
-    },
-    {
-      "name": "Version Control",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Perforce",
-        "Git"
       ]
     }
   ],
@@ -183,6 +232,30 @@
     }
   ],
   "interests": [
+    {
+      "name": "Deep Learning",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Agent Harness",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "AI Agent Development",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "AI Automation",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+      ]
+    },
     {
       "name": "Game AI & Reinforcement Learning",
       "icon": "fa-solid fa-tag",

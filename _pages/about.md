@@ -2,12 +2,13 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
+  contact: true
   more_info: >
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -25,18 +26,28 @@ latest_posts:
 ---
 
 <p align="justify">
-I’m a Gameplay Programmer with over seven years of professional experience and an MSc in Commercial Games Development from the University of the West of England (UWE), UK. I specialise in Unreal Engine (UE5) and Unity, with a strong focus on moment-to-moment gameplay, combat systems, character mechanics, AI behaviours, networked features, and high-quality player experiences.
+I'm an AI Engineer focused on building AI-powered products, autonomous agent workflows, and practical automation systems that connect data, reasoning, and user-facing software.
 <br>
 <br>
-I’ve contributed to a wide range of game projects across prototyping, pre-production, and full production cycles—building robust gameplay systems, optimising performance, integrating animation and VFX pipelines, and delivering polished features under tight deadlines. I’m comfortable working in fast-paced environments, collaborating with multidisciplinary teams, and taking ownership of features from design to final implementation.
+My current work involves designing and building full-stack AI systems using modern AI technologies, agentic workflows, automation pipelines, and production-ready web platforms. I focus on turning AI capabilities into reliable, usable products.
 <br>
 <br>
-I also leverage Generative AI tools to support rapid visual exploration, concept iteration, and early art direction—helping teams move faster during prototyping and creative development.
+Previously, I worked as a Gameplay Programmer across Unreal Engine and Unity projects, building combat systems, character mechanics, enemy AI, networked features, player persistence, and production-ready gameplay systems. That game-development background still shapes how I build software: I care about responsiveness, system reliability, clear feedback loops, performance, and end-to-end feature ownership.
 <br>
 <br>
-I’m passionate about building responsive, well-crafted gameplay and contributing to high-quality, large-scale game experiences. I’m driven, detail-oriented, and always focused on delivering features that feel great, play great, and enhance the overall player experience.
+I hold an MSc in Commercial Games Development from the University of the West of England (UWE), UK, and now apply that engineering discipline to AI products that are reliable, usable, and genuinely useful for teams, businesses, and end users.
 </p>
 
-<div class="social">
-  <div class="contact-icons">{% include social.liquid %}</div>
+<div class="apple-tag-grid home-tech-stack">
+  <span class="apple-tag">Agentic Workflows</span>
+  <span class="apple-tag">Agent Harness</span>
+  <span class="apple-tag">Multi-Agent Orchestration</span>
+  <span class="apple-tag">AI Automation</span>
+  <span class="apple-tag">AI Agent Development</span>
+  <span class="apple-tag">Deep Learning</span>
+  <span class="apple-tag">API</span>
+  <span class="apple-tag">Claude Code</span>
+  <span class="apple-tag">Codex</span>
+  <span class="apple-tag">Cursor</span>
+  <span class="apple-tag">OpenClaw</span>
 </div>

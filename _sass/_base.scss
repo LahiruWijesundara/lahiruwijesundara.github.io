@@ -413,6 +413,11 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.toggle-container {
+  display: flex;
+  align-items: center;
+}
+
 // Social (bottom)
 
 .social {

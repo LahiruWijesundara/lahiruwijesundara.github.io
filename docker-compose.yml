@@ -13,8 +13,8 @@ services:
     #     USERID: # id -u
     #     USERNAME: # echo $USER
     ports:
-      # Use 3000 on host if 8080 is blocked (Windows Hyper-V reserves ~7982-8081)
-      - 3000:8080
+      # Use 4000 on host; Windows can reserve common dev ports such as 3000/8080.
+      - 4000:8080
       - 35729:35729
     volumes:
       - .:/srv/jekyll

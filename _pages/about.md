@@ -26,28 +26,50 @@ latest_posts:
 ---
 
 <p align="justify">
-I'm an AI Engineer focused on building AI-powered products, autonomous agent workflows, and practical automation systems that connect data, reasoning, and user-facing software.
+I'm an AI Engineer and Gameplay Engineer currently working across both AI-powered software systems and real-time interactive game systems.
 <br>
 <br>
-My current work involves designing and building full-stack AI systems using modern AI technologies, agentic workflows, automation pipelines, and production-ready web platforms. I focus on turning AI capabilities into reliable, usable products.
+My AI engineering work focuses on building AI-powered products, autonomous agent workflows, automation systems, and full-stack AI applications that connect data, reasoning, APIs, and user-facing software. I focus on turning AI capabilities into reliable, usable tools for teams, businesses, and end users.
 <br>
 <br>
-Previously, I worked as a Gameplay Programmer across Unreal Engine and Unity projects, building combat systems, character mechanics, enemy AI, networked features, player persistence, and production-ready gameplay systems. That game-development background still shapes how I build software: I care about responsiveness, system reliability, clear feedback loops, performance, and end-to-end feature ownership.
+Alongside that, I continue to work as a Gameplay Engineer across Unreal Engine and Unity projects, building combat systems, character mechanics, enemy AI, networked gameplay features, player persistence, and production-ready gameplay systems.
 <br>
 <br>
-I hold an MSc in Commercial Games Development from the University of the West of England (UWE), UK, and now apply that engineering discipline to AI products that are reliable, usable, and genuinely useful for teams, businesses, and end users.
+My background in game development shapes how I approach all software engineering work: I care about responsiveness, reliability, clear feedback loops, performance, and end-to-end feature ownership.
+<br>
+<br>
+I hold an MSc in Commercial Games Development from the University of the West of England (UWE), UK, and I apply that engineering discipline across both AI products and gameplay systems.
 </p>
 
-<div class="apple-tag-grid home-tech-stack">
-  <span class="apple-tag">Agentic Workflows</span>
-  <span class="apple-tag">Agent Harness</span>
-  <span class="apple-tag">Multi-Agent Orchestration</span>
-  <span class="apple-tag">AI Automation</span>
-  <span class="apple-tag">AI Agent Development</span>
-  <span class="apple-tag">Deep Learning</span>
-  <span class="apple-tag">API</span>
-  <span class="apple-tag">Claude Code</span>
-  <span class="apple-tag">Codex</span>
-  <span class="apple-tag">Cursor</span>
-  <span class="apple-tag">OpenClaw</span>
+<div class="home-skills-block">
+  <div class="home-skills-label home-skills-label--ai">AI Engineer</div>
+  <div class="apple-tag-grid home-tech-stack">
+    <span class="apple-tag">Agentic Workflows</span>
+    <span class="apple-tag">Agent Harness</span>
+    <span class="apple-tag">Multi-Agent Orchestration</span>
+    <span class="apple-tag">AI Automation</span>
+    <span class="apple-tag">AI Agent Development</span>
+    <span class="apple-tag">Deep Learning</span>
+    <span class="apple-tag">LLM APIs</span>
+    <span class="apple-tag">Claude Code</span>
+    <span class="apple-tag">Codex</span>
+    <span class="apple-tag">Full-Stack Web Dev</span>
+    <span class="apple-tag">MCP Integrations</span>
+  </div>
+</div>
+
+<div class="home-skills-block">
+  <div class="home-skills-label home-skills-label--gamedev">Gameplay Engineer</div>
+  <div class="apple-tag-grid home-tech-stack--gamedev">
+    <span class="apple-tag apple-tag--gamedev">Unreal Engine 4 &amp; 5</span>
+    <span class="apple-tag apple-tag--gamedev">Unity</span>
+    <span class="apple-tag apple-tag--gamedev">Gameplay Ability System</span>
+    <span class="apple-tag apple-tag--gamedev">Multiplayer Framework</span>
+    <span class="apple-tag apple-tag--gamedev">Blueprint Visual Scripting</span>
+    <span class="apple-tag apple-tag--gamedev">C++ Gameplay Programming</span>
+    <span class="apple-tag apple-tag--gamedev">Animation Blueprint</span>
+    <span class="apple-tag apple-tag--gamedev">AI &amp; State Tree</span>
+    <span class="apple-tag apple-tag--gamedev">UMG / UI Widgets</span>
+    <span class="apple-tag apple-tag--gamedev">Combat Systems</span>
+  </div>
 </div>

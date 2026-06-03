@@ -217,6 +217,23 @@
         "Unreal Engine 4 & 5",
         "Unity"
       ]
+    },
+    {
+      "name": "Unreal Engine",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Gameplay Ability System",
+        "Multiplayer Framework",
+        "Blueprint Visual Scripting",
+        "C++ Gameplay Programming",
+        "Animation Blueprint",
+        "Enhanced Input System",
+        "AI & State Tree",
+        "Nanite & Lumen",
+        "UMG / UI Widgets",
+        "Asset Manager & Data Assets"
+      ]
     }
   ],
   "languages": [

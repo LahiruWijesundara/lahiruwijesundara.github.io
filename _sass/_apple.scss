@@ -1741,9 +1741,12 @@ html[data-theme="dark"] {
   color: #247a3d;
 }
 
+.home-skills-wrapper {
+  overflow: hidden;
+}
+
 .home-skills-block {
   margin-bottom: 0.75rem;
-  overflow: hidden;
 }
 
 .home-tech-stack--gamedev {

@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   contact: true
   more_info: >
@@ -41,35 +41,37 @@ My background in game development shapes how I approach all software engineering
 I hold an MSc in Commercial Games Development from the University of the West of England (UWE), UK, and I apply that engineering discipline across both AI products and gameplay systems.
 </p>
 
-<div class="home-skills-block">
-  <div class="home-skills-label home-skills-label--ai">AI Engineer</div>
-  <div class="apple-tag-grid home-tech-stack">
-    <span class="apple-tag">Agentic Workflows</span>
-    <span class="apple-tag">Agent Harness</span>
-    <span class="apple-tag">Multi-Agent Orchestration</span>
-    <span class="apple-tag">AI Automation</span>
-    <span class="apple-tag">AI Agent Development</span>
-    <span class="apple-tag">Deep Learning</span>
-    <span class="apple-tag">LLM APIs</span>
-    <span class="apple-tag">Claude Code</span>
-    <span class="apple-tag">Codex</span>
-    <span class="apple-tag">Full-Stack Web Dev</span>
-    <span class="apple-tag">MCP Integrations</span>
+<div class="home-skills-wrapper">
+  <div class="home-skills-block">
+    <div class="home-skills-label home-skills-label--ai">AI Engineer</div>
+    <div class="apple-tag-grid home-tech-stack">
+      <span class="apple-tag">Agentic Workflows</span>
+      <span class="apple-tag">Agent Harness</span>
+      <span class="apple-tag">Multi-Agent Orchestration</span>
+      <span class="apple-tag">AI Automation</span>
+      <span class="apple-tag">AI Agent Development</span>
+      <span class="apple-tag">Deep Learning</span>
+      <span class="apple-tag">LLM APIs</span>
+      <span class="apple-tag">Claude Code</span>
+      <span class="apple-tag">Codex</span>
+      <span class="apple-tag">Full-Stack Web Dev</span>
+      <span class="apple-tag">MCP Integrations</span>
+    </div>
   </div>
-</div>
 
-<div class="home-skills-block">
-  <div class="home-skills-label home-skills-label--gamedev">Gameplay Engineer</div>
-  <div class="apple-tag-grid home-tech-stack--gamedev">
-    <span class="apple-tag apple-tag--gamedev">Unreal Engine 4 &amp; 5</span>
-    <span class="apple-tag apple-tag--gamedev">Unity</span>
-    <span class="apple-tag apple-tag--gamedev">Gameplay Ability System</span>
-    <span class="apple-tag apple-tag--gamedev">Multiplayer Framework</span>
-    <span class="apple-tag apple-tag--gamedev">Blueprint Visual Scripting</span>
-    <span class="apple-tag apple-tag--gamedev">C++ Gameplay Programming</span>
-    <span class="apple-tag apple-tag--gamedev">Animation Blueprint</span>
-    <span class="apple-tag apple-tag--gamedev">AI &amp; State Tree</span>
-    <span class="apple-tag apple-tag--gamedev">UMG / UI Widgets</span>
-    <span class="apple-tag apple-tag--gamedev">Combat Systems</span>
+  <div class="home-skills-block">
+    <div class="home-skills-label home-skills-label--gamedev">Gameplay Engineer</div>
+    <div class="apple-tag-grid home-tech-stack--gamedev">
+      <span class="apple-tag apple-tag--gamedev">Unreal Engine 4 &amp; 5</span>
+      <span class="apple-tag apple-tag--gamedev">Unity</span>
+      <span class="apple-tag apple-tag--gamedev">Gameplay Ability System</span>
+      <span class="apple-tag apple-tag--gamedev">Multiplayer Framework</span>
+      <span class="apple-tag apple-tag--gamedev">Blueprint Visual Scripting</span>
+      <span class="apple-tag apple-tag--gamedev">C++ Gameplay Programming</span>
+      <span class="apple-tag apple-tag--gamedev">Animation Blueprint</span>
+      <span class="apple-tag apple-tag--gamedev">AI &amp; State Tree</span>
+      <span class="apple-tag apple-tag--gamedev">UMG / UI Widgets</span>
+      <span class="apple-tag apple-tag--gamedev">Combat Systems</span>
+    </div>
   </div>
 </div>

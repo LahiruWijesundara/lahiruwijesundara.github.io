@@ -184,6 +184,83 @@ _styles: >
   </div>
 </section>
 
+<section class="apple-section" id="walkthrough">
+  {% include apple/section_head.liquid
+      eyebrow="Product Walkthrough"
+      title="See CSE Pulse in action"
+      lead="A short walkthrough of the AI-powered market dashboard, portfolio analytics, and AI advisor working together in the live app."
+  %}
+
+  <div class="apple-video-frame">
+    {% include video.liquid
+        path="assets/video/cse-pulse-ai-financial-fullstack-agent-demo.mp4"
+        class="apple-video"
+        poster="/assets/img/portfolio/csepulse/cse-pulse-dashboard.png"
+        controls=true
+        muted=true
+        loop=true
+        title="CSE Pulse AI-powered financial full-stack agent demo"
+    %}
+  </div>
+
+  <div class="apple-video-actions">
+    <button type="button"
+            class="apple-share-btn"
+            data-share-url="{{ '/assets/video/cse-pulse-ai-financial-fullstack-agent-demo.mp4' | absolute_url }}"
+            data-share-title="CSE Pulse — AI Market Intelligence Platform demo"
+            aria-label="Share this video as a link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="18" cy="5" r="3"></circle>
+        <circle cx="6" cy="12" r="3"></circle>
+        <circle cx="18" cy="19" r="3"></circle>
+        <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+        <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+      </svg>
+      <span class="apple-share-label">Share video</span>
+    </button>
+  </div>
+</section>
+
+<script>
+  (function () {
+    document.querySelectorAll('.apple-share-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var url = btn.getAttribute('data-share-url');
+        var title = btn.getAttribute('data-share-title') || document.title;
+        var label = btn.querySelector('.apple-share-label');
+        var original = label ? label.textContent : '';
+
+        function flash(msg) {
+          if (!label) return;
+          label.textContent = msg;
+          setTimeout(function () { label.textContent = original; }, 2000);
+        }
+
+        if (navigator.share) {
+          navigator.share({ title: title, text: title, url: url }).catch(function (err) {
+            if (err && err.name === 'AbortError') return;
+            copyLink();
+          });
+          return;
+        }
+        copyLink();
+
+        function copyLink() {
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(url).then(function () {
+              flash('Link copied');
+            }).catch(function () {
+              window.prompt('Copy this link:', url);
+            });
+          } else {
+            window.prompt('Copy this link:', url);
+          }
+        }
+      });
+    });
+  })();
+</script>
+
 <section class="apple-section">
   {% include apple/section_head.liquid
       eyebrow="Gallery"

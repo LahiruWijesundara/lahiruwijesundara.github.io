@@ -1179,6 +1179,67 @@ figure.cover {
   p.text-center { display: none; } // fancybox caption paragraph — replaced by .apple-shot-caption
 }
 
+// --- Product walkthrough video ---
+
+.apple-video-frame {
+  max-width: 960px;
+  margin: 0 auto;
+  background: var(--apple-surface);
+  border: 1px solid var(--apple-border);
+  border-radius: var(--apple-radius);
+  overflow: hidden;
+  box-shadow: var(--apple-shadow);
+
+  figure { margin: 0; line-height: 0; }
+
+  video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+  }
+}
+
+.apple-video-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+.apple-share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.6rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  color: var(--apple-text);
+  background: var(--apple-surface);
+  border: 1px solid var(--apple-border);
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow: var(--apple-shadow);
+  transition: transform 200ms ease, box-shadow 200ms ease,
+              color 200ms ease, border-color 200ms ease;
+
+  svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+  }
+
+  &:hover {
+    color: var(--apple-accent);
+    border-color: var(--apple-accent);
+    transform: translateY(-1px);
+    box-shadow: var(--apple-shadow-hover);
+  }
+
+  &:active { transform: translateY(0); }
+}
+
 // --- Two-column layout (media + content) ---
 
 .apple-two-col {

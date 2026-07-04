@@ -195,9 +195,19 @@ _styles: >
 
     <figure class="apple-shot">
       {% include image_fancybox.liquid
+          full="/assets/img/portfolio/ragsupport/rag-support-card.png"
+          thumb="assets/img/portfolio/ragsupport/rag-support-card.png"
+          loading="eager"
+          category="screen captures"
+      %}
+      <figcaption class="apple-shot-caption">RAG Support Assistant — Overview</figcaption>
+    </figure>
+
+    <figure class="apple-shot">
+      {% include image_fancybox.liquid
           full="/assets/img/portfolio/ragsupport/rag-support-landing.png"
           thumb="assets/img/portfolio/ragsupport/rag-support-landing.png"
-          loading="eager"
+          loading="lazy"
           category="screen captures"
       %}
       <figcaption class="apple-shot-caption">Landing page — value proposition and feature overview</figcaption>

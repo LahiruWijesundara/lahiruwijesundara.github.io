@@ -264,12 +264,17 @@ _styles: >
 <section class="apple-section">
   {% include apple/section_head.liquid
       eyebrow="Gallery"
-      title="Current app screen captures"
+      title="Screen Captures"
   %}
 
   <div class="apple-gallery">
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-dashboard.png" thumb="assets/img/portfolio/csepulse/cse-pulse-dashboard.png" loading="eager" category="screen captures" %}
+      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-card.png" thumb="assets/img/portfolio/csepulse/cse-pulse-card.png" loading="eager" category="screen captures" %}
+      <figcaption class="apple-shot-caption">CSE Pulse — Overview</figcaption>
+    </figure>
+
+    <figure class="apple-shot">
+      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-dashboard.png" thumb="assets/img/portfolio/csepulse/cse-pulse-dashboard.png" loading="lazy" category="screen captures" %}
       <figcaption class="apple-shot-caption">Dashboard and Market Overview</figcaption>
     </figure>
 

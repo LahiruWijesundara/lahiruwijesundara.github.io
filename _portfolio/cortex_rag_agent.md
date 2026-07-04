@@ -181,9 +181,19 @@ _styles: >
 
     <figure class="apple-shot">
       {% include image_fancybox.liquid
+          full="/assets/img/portfolio/cortexrag/cortex-card.png"
+          thumb="assets/img/portfolio/cortexrag/cortex-card.png"
+          loading="eager"
+          category="screen captures"
+      %}
+      <figcaption class="apple-shot-caption">Cortex — Overview</figcaption>
+    </figure>
+
+    <figure class="apple-shot">
+      {% include image_fancybox.liquid
           full="/assets/img/portfolio/cortexrag/cortex-chat.png"
           thumb="assets/img/portfolio/cortexrag/cortex-chat.png"
-          loading="eager"
+          loading="lazy"
           category="screen captures"
       %}
       <figcaption class="apple-shot-caption">Multi-turn grounded chat over Amazon's earnings releases — the follow-up resolves from thread memory, with citation cards for every passage</figcaption>

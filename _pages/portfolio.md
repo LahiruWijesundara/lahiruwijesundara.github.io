@@ -112,13 +112,13 @@ toc:
       {% elsif category == "Work Experience" %}
         {% assign ai_projects = site.portfolio | where: "category", "Work Experience - AI Engineer" | sort: "importance" %}
         {% assign gamedev_projects = site.portfolio | where: "category", "Work Experience - Game Dev" | sort: "importance" %}
-        <h3 id="AI Engineer" class="category">AI Engineer</h3>
+        <h3 id="ai-engineer" class="category">AI Engineer</h3>
         <div class="row row-cols-2 row-cols-md-5">
           {% for project in ai_projects %}
             {% include projects.liquid %}
           {% endfor %}
         </div>
-        <h3 id="Game Dev" class="category">Gameplay Engineer</h3>
+        <h3 id="gameplay-engineer" class="category">Gameplay Engineer</h3>
         <div class="row row-cols-2 row-cols-md-5">
           {% for project in gamedev_projects %}
             {% include projects.liquid %}

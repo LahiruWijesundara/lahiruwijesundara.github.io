@@ -110,6 +110,9 @@ _styles: >
     <figure class="apple-shot">
       {% include image_fancybox.liquid full="/assets/img/portfolio/wota/wota_3_fhd.png" thumb="/assets/img/portfolio/wota/wota_3_n.png" loading="lazy" category="Image Gallery" caption="In-game — HQ building" %}
     </figure>
+    <figure class="apple-shot">
+      {% include image_fancybox.liquid full="/assets/img/portfolio/wota/wota_4_fhd.png" thumb="/assets/img/portfolio/wota/wota_4_n.png" loading="lazy" category="Image Gallery" caption="In-game — worker units on the move" %}
+    </figure>
   </div>
   <p class="apple-media-credit">Work-in-progress captures. War of the Ages is in active development.</p>
 </section>

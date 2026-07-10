@@ -3,7 +3,7 @@ layout: page
 title: SAF-TAC <br> <em>VR/PC Military Defence Simulation</em>
 img: assets/img/portfolio/saftac/saftac_logo.png
 permalink: /saf-tac/
-importance: 3
+importance: 4
 category: Work Experience - Game Dev
 description: "Senior Software Engineer (April 2018 – Sep 2023) <br> SimCentric, Sri Lanka"
 _styles: >

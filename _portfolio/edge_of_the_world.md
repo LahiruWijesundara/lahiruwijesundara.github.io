@@ -3,7 +3,7 @@ layout: page
 title: The Edge Of The World <br> <em>Open-World Action RPG</em>
 img: assets/img/portfolio/edgeoftheworld/edgeoftheworld_card.png
 permalink: /edge-of-the-world/
-importance: 5
+importance: 6
 category: Work Experience - Game Dev
 description: "Unreal Engine Gameplay Programmer (May 2021 – Dec 2021) <br> Ksavage Media, USA (Remote)"
 _styles: >

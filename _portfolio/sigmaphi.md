@@ -3,7 +3,7 @@ layout: page
 title: Sigma Phi Laboratory <br> <em>Serious Game</em>
 img: assets/img/portfolio/sigmaphi/sigmaphi_card.png
 permalink: /sigma-phi-laboratory/
-importance: 4
+importance: 5
 category: Work Experience - Game Dev
 description: "Unreal Engine Gameplay Programmer (Mar 2023 – Aug 2023) <br> Sigma Phi Labs, China (Remote)"
 _styles: >

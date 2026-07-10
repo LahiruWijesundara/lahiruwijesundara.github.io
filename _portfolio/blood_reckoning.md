@@ -3,7 +3,7 @@ layout: page
 title: Blood Reckoning - The Eternal War <br> <em>Dark-Fantasy MMORPG</em>
 img: assets/img/portfolio/bloodreckoning_logo.png
 permalink: /blood-reckoning/
-importance: 1
+importance: 2
 category: Work Experience - Game Dev
 description: "Lead Unreal Engine Gameplay Programmer (Oct 2024 – Present) <br> Zukel Investment Group, USA (Remote)"
 _styles: >

@@ -4,7 +4,7 @@ title: Combat Beans - Total Mayhem <br> <em>Third-Person Shooter Multiplayer</em
 description: Senior Unreal Engine Gameplay Programmer (July 2021– Sep 2023) <br> Peanut Brain Studios, Japan (Remote)
 img: assets/img/portfolio/combatbeans_logo.png
 permalink: /combat-beans/
-importance: 2
+importance: 3
 category: Work Experience - Game Dev
 _styles: >
   .post-header { display: none; }

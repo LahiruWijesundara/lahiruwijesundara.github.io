@@ -1,8 +1,8 @@
 ---
 layout: page
-title: CSE Pulse <br> <em>AI Market Intelligence Platform</em>
-img: assets/img/portfolio/csepulse/cse-pulse-card.png
-permalink: /cse-pulse/
+title: Basisfolio <br> <em>AI Market Intelligence Platform</em>
+img: assets/img/portfolio/basisfolio/basisfolio-card.png
+permalink: /basisfolio/
 importance: 1
 category: Work Experience - AI Engineer
 description: "AI Engineer (Nov 2025 - Present) <br> Next.js 16, React 19, Prisma 7, PostgreSQL, LangGraph, Codex CLI"
@@ -13,18 +13,18 @@ _styles: >
 
 {% include apple/hero.liquid
     eyebrow="Client Project - Jan 2026 - Present"
-    title="CSE Pulse"
-    subtitle="A full-stack AI market intelligence workspace for Colombo Stock Exchange investors, combining live market data, portfolio accounting, report research, AI suggestions, an AI advisor, CBSL updates, dividends, news, risk monitoring, and company intelligence in one authenticated product."
-    meta="!Full-Stack AI Engineer,CSE Pulse,Sri Lanka"
+    title="Basisfolio"
+    subtitle="A full-stack AI workspace for stock market investors, combining live market data, portfolio accounting, report research, AI suggestions, an AI advisor, central bank updates, dividends, news, risk monitoring, and company intelligence in one authenticated product."
+    meta="!Full-Stack AI Engineer,Basisfolio,Web Platform"
     tech="Next.js 16,React 19,PostgreSQL,Prisma 7,NextAuth,LangGraph,Trigger.dev,Codex CLI,Gemini API,Anthropic API"
 %}
 
 <div class="apple-overview">
   <p>
-    <span class="lead-emphasis">CSE Pulse</span> is a private investment workspace for retail investors who follow the Colombo Stock Exchange. The product has moved beyond a simple holdings tracker into a full daily decision system: monitor the market, understand portfolio exposure, review companies, track dividends, read central bank updates, follow material news, and ask an AI advisor questions against the user's own portfolio context.
+    <span class="lead-emphasis">Basisfolio</span> is a private investment workspace for retail investors who manage a stock market portfolio. The product has moved beyond a simple holdings tracker into a full daily decision system: monitor the market, understand portfolio exposure, review companies, track dividends, read central bank updates, follow material news, and ask an AI advisor questions against the user's own portfolio context.
   </p>
   <p>
-    I designed and built the application end to end. That includes CSE and CBSL data ingestion, the portfolio and realized P&amp;L engine, company profile pages, AI verdict generation, Codex-powered PDF research, report analysis with cited financial metrics, a conversational advisor with memory, watchlist and notification workflows, news and dividend sync jobs, settings, usage tracking, and the responsive dashboard UI.
+    I designed and built the application end to end. That includes market and central bank data ingestion, the portfolio and realized P&amp;L engine, company profile pages, AI verdict generation, Codex-powered PDF research, report analysis with cited financial metrics, a conversational advisor with memory, watchlist and notification workflows, news and dividend sync jobs, settings, usage tracking, and the responsive dashboard UI.
   </p>
 </div>
 
@@ -39,7 +39,7 @@ _styles: >
     <article class="apple-card">
       <span class="apple-icon">01</span>
       <h3>Daily Market Command Center</h3>
-      <p>The dashboard now blends local CSE market status with ASPI, S&amp;P SL20, world market indices, top gainers, top losers, most-active counters, and notification badges so the user can start from a single morning market view.</p>
+      <p>The dashboard blends local market status with benchmark indices, world market indices, top gainers, top losers, most-active counters, and notification badges so the user can start from a single morning market view.</p>
     </article>
 
     <article class="apple-card">
@@ -51,7 +51,7 @@ _styles: >
     <article class="apple-card">
       <span class="apple-icon">03</span>
       <h3>Research and Report Intelligence</h3>
-      <p>The new research area supports longer PDF analysis jobs, while the report analyzer extracts structured financial metrics, thesis, risk, valuation bands, business overview, segment data, and exportable report views from annual or quarterly PDFs.</p>
+      <p>The research area supports longer PDF analysis jobs, while the report analyzer extracts structured financial metrics, thesis, risk, valuation bands, business overview, segment data, and exportable report views from annual or quarterly PDFs.</p>
     </article>
 
     <article class="apple-card">
@@ -73,7 +73,7 @@ _styles: >
     <article class="apple-card">
       <span class="apple-icon">01</span>
       <h3>Market Dashboard &amp; Portfolio Analytics</h3>
-      <p>Live ASPI and S&amp;P SL20 tracking, world market snapshots, top gainers and losers, most-active counters, portfolio market value, unrealized P&amp;L, today's gain, break-even sell price, sortable holdings, bulk CSV import, and dedicated diversification screens.</p>
+      <p>Live benchmark index tracking, world market snapshots, top gainers and losers, most-active counters, portfolio market value, unrealized P&amp;L, today's gain, break-even sell price, sortable holdings, bulk CSV import, and dedicated diversification screens.</p>
     </article>
 
     <article class="apple-card">
@@ -96,8 +96,8 @@ _styles: >
 
     <article class="apple-card">
       <span class="apple-icon">05</span>
-      <h3>News, Dividends, CBSL &amp; Notifications</h3>
-      <p>Aggregates CSE announcements and market news, links headlines to portfolio and watchlist symbols, tracks dividend events, surfaces CBSL feeds, and raises notification badges for portfolio or watchlist events that deserve attention.</p>
+      <h3>News, Dividends, Central Bank &amp; Notifications</h3>
+      <p>Aggregates market announcements and financial news, links headlines to portfolio and watchlist symbols, tracks dividend events, surfaces central bank feeds, and raises notification badges for portfolio or watchlist events that deserve attention.</p>
     </article>
 
     <article class="apple-card">
@@ -141,7 +141,7 @@ _styles: >
   {% include apple/section_head.liquid
       eyebrow="Behind the Scenes"
       title="Challenges &amp; solutions"
-      lead="Technical problems specific to CSE data, serverless execution, AI workflows, and a fast-moving product surface."
+      lead="Technical problems specific to live market data, serverless execution, AI workflows, and a fast-moving product surface."
   %}
 
   <div class="apple-cs">
@@ -152,10 +152,10 @@ _styles: >
         solution_body="Split authentication into an edge-safe auth.config.ts for middleware and a full Node auth.ts for credentials validation, password hashing, Google account linking, and database-backed session context."
     %}
     {% include apple/cs_card.liquid
-        label="CSE API Limits"
-        challenge_title="Portfolio enrichment and quote lookups could overload undocumented CSE endpoints."
+        label="Market API Limits"
+        challenge_title="Portfolio enrichment and quote lookups could overload undocumented market data endpoints."
         challenge_body="Fetching live prices, analysis data, announcements, and quote metadata in parallel caused 429s and stale responses."
-        solution_body="Centralized CSE calls behind a p-queue singleton with low concurrency, minimum intervals, and market-hours-aware TTL caching shared across server-side requests."
+        solution_body="Centralized market data calls behind a p-queue singleton with low concurrency, minimum intervals, and market-hours-aware TTL caching shared across server-side requests."
     %}
     {% include apple/cs_card.liquid
         label="AI Report Workflows"
@@ -178,7 +178,7 @@ _styles: >
     {% include apple/cs_card.liquid
         label="Market Matching"
         challenge_title="News headlines and company announcements rarely use clean ticker symbols."
-        challenge_body="CSE articles often mention company names, abbreviated names, or PDF announcement titles rather than exchange tickers."
+        challenge_body="Market articles often mention company names, abbreviated names, or PDF announcement titles rather than exchange tickers."
         solution_body="Built a symbol-linking layer that compares tickers and company names, stores confidence scores, and powers portfolio/watchlist filters, notification badges, and company detail pages."
     %}
   </div>
@@ -187,27 +187,27 @@ _styles: >
 <section class="apple-section" id="walkthrough">
   {% include apple/section_head.liquid
       eyebrow="Product Walkthrough"
-      title="See CSE Pulse in action"
+      title="See Basisfolio in action"
       lead="A short walkthrough of the AI-powered market dashboard, portfolio analytics, and AI advisor working together in the live app."
   %}
 
   <div class="apple-video-frame">
     {% include video.liquid
-        path="assets/video/cse-pulse-ai-financial-fullstack-agent-demo.mp4"
+        path="assets/video/basisfolio-product-film.mp4"
         class="apple-video"
-        poster="/assets/img/portfolio/csepulse/cse-pulse-dashboard.png"
+        poster="/assets/img/portfolio/basisfolio/basisfolio-dashboard.png"
         controls=true
         muted=true
         loop=true
-        title="CSE Pulse AI-powered financial full-stack agent demo"
+        title="Basisfolio AI-powered financial full-stack agent demo"
     %}
   </div>
 
   <div class="apple-video-actions">
     <button type="button"
             class="apple-share-btn"
-            data-share-url="{{ '/assets/video/cse-pulse-ai-financial-fullstack-agent-demo.mp4' | absolute_url }}"
-            data-share-title="CSE Pulse — AI Market Intelligence Platform demo"
+            data-share-url="{{ '/assets/video/basisfolio-product-film.mp4' | absolute_url }}"
+            data-share-title="Basisfolio — AI Market Intelligence Platform demo"
             aria-label="Share this video as a link">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <circle cx="18" cy="5" r="3"></circle>
@@ -269,97 +269,102 @@ _styles: >
 
   <div class="apple-gallery">
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-card.png" thumb="assets/img/portfolio/csepulse/cse-pulse-card.png" loading="eager" category="screen captures" %}
-      <figcaption class="apple-shot-caption">CSE Pulse — Overview</figcaption>
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-card.png" thumb="assets/img/portfolio/basisfolio/basisfolio-card.png" loading="eager" category="screen captures" %}
+      <figcaption class="apple-shot-caption">Basisfolio — Overview</figcaption>
     </figure>
 
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-dashboard.png" thumb="assets/img/portfolio/csepulse/cse-pulse-dashboard.png" loading="lazy" category="screen captures" %}
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-dashboard.png" thumb="assets/img/portfolio/basisfolio/basisfolio-dashboard.png" loading="lazy" category="screen captures" %}
       <figcaption class="apple-shot-caption">Dashboard and Market Overview</figcaption>
     </figure>
 
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-portfolio.png" thumb="assets/img/portfolio/csepulse/cse-pulse-portfolio.png" loading="lazy" category="screen captures" %}
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-portfolio.png" thumb="assets/img/portfolio/basisfolio/basisfolio-portfolio.png" loading="lazy" category="screen captures" %}
       <figcaption class="apple-shot-caption">Portfolio Holdings</figcaption>
     </figure>
 
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-diversification.png" thumb="assets/img/portfolio/csepulse/cse-pulse-diversification.png" loading="lazy" category="screen captures" %}
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-diversification.png" thumb="assets/img/portfolio/basisfolio/basisfolio-diversification.png" loading="lazy" category="screen captures" %}
       <figcaption class="apple-shot-caption">Diversification</figcaption>
     </figure>
 
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-companies.png" thumb="assets/img/portfolio/csepulse/cse-pulse-companies.png" loading="lazy" category="screen captures" %}
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-companies.png" thumb="assets/img/portfolio/basisfolio/basisfolio-companies.png" loading="lazy" category="screen captures" %}
       <figcaption class="apple-shot-caption">Companies Directory</figcaption>
     </figure>
 
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-company-profile.png" thumb="assets/img/portfolio/csepulse/cse-pulse-company-profile.png" loading="lazy" category="screen captures" %}
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-company-profile.png" thumb="assets/img/portfolio/basisfolio/basisfolio-company-profile.png" loading="lazy" category="screen captures" %}
       <figcaption class="apple-shot-caption">Company Profile</figcaption>
     </figure>
 
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-realized-pnl.png" thumb="assets/img/portfolio/csepulse/cse-pulse-realized-pnl.png" loading="lazy" category="screen captures" %}
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-realized-pnl.png" thumb="assets/img/portfolio/basisfolio/basisfolio-realized-pnl.png" loading="lazy" category="screen captures" %}
       <figcaption class="apple-shot-caption">Realized P&amp;L</figcaption>
     </figure>
 
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-analysis.png" thumb="assets/img/portfolio/csepulse/cse-pulse-analysis.png" loading="lazy" category="screen captures" %}
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-analysis.png" thumb="assets/img/portfolio/basisfolio/basisfolio-analysis.png" loading="lazy" category="screen captures" %}
       <figcaption class="apple-shot-caption">Technical Analysis</figcaption>
     </figure>
 
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-ai-suggestions.png" thumb="assets/img/portfolio/csepulse/cse-pulse-ai-suggestions.png" loading="lazy" category="screen captures" %}
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-ai-suggestions.png" thumb="assets/img/portfolio/basisfolio/basisfolio-ai-suggestions.png" loading="lazy" category="screen captures" %}
       <figcaption class="apple-shot-caption">AI Suggestions</figcaption>
     </figure>
 
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-ai-advisor.png" thumb="assets/img/portfolio/csepulse/cse-pulse-ai-advisor.png" loading="lazy" category="screen captures" %}
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-ai-advisor.png" thumb="assets/img/portfolio/basisfolio/basisfolio-ai-advisor.png" loading="lazy" category="screen captures" %}
       <figcaption class="apple-shot-caption">AI Advisor</figcaption>
     </figure>
 
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-research.png" thumb="assets/img/portfolio/csepulse/cse-pulse-research.png" loading="lazy" category="screen captures" %}
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-research.png" thumb="assets/img/portfolio/basisfolio/basisfolio-research.png" loading="lazy" category="screen captures" %}
       <figcaption class="apple-shot-caption">Research Workflow</figcaption>
     </figure>
 
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-reports.png" thumb="assets/img/portfolio/csepulse/cse-pulse-reports.png" loading="lazy" category="screen captures" %}
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-report.png" thumb="assets/img/portfolio/basisfolio/basisfolio-report.png" loading="lazy" category="screen captures" %}
+      <figcaption class="apple-shot-caption">Generated Research Report</figcaption>
+    </figure>
+
+    <figure class="apple-shot">
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-reports.png" thumb="assets/img/portfolio/basisfolio/basisfolio-reports.png" loading="lazy" category="screen captures" %}
       <figcaption class="apple-shot-caption">Report Analyzer</figcaption>
     </figure>
 
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-dividends.png" thumb="assets/img/portfolio/csepulse/cse-pulse-dividends.png" loading="lazy" category="screen captures" %}
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-dividends.png" thumb="assets/img/portfolio/basisfolio/basisfolio-dividends.png" loading="lazy" category="screen captures" %}
       <figcaption class="apple-shot-caption">Dividends Calendar</figcaption>
     </figure>
 
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-news.png" thumb="assets/img/portfolio/csepulse/cse-pulse-news.png" loading="lazy" category="screen captures" %}
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-news.png" thumb="assets/img/portfolio/basisfolio/basisfolio-news.png" loading="lazy" category="screen captures" %}
       <figcaption class="apple-shot-caption">News Intelligence</figcaption>
     </figure>
 
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-cbsl.png" thumb="assets/img/portfolio/csepulse/cse-pulse-cbsl.png" loading="lazy" category="screen captures" %}
-      <figcaption class="apple-shot-caption">CBSL Updates</figcaption>
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-cbsl.png" thumb="assets/img/portfolio/basisfolio/basisfolio-cbsl.png" loading="lazy" category="screen captures" %}
+      <figcaption class="apple-shot-caption">Central Bank Updates</figcaption>
     </figure>
 
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-risk.png" thumb="assets/img/portfolio/csepulse/cse-pulse-risk.png" loading="lazy" category="screen captures" %}
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-risk.png" thumb="assets/img/portfolio/basisfolio/basisfolio-risk.png" loading="lazy" category="screen captures" %}
       <figcaption class="apple-shot-caption">Risk Analysis</figcaption>
     </figure>
 
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-watchlist.png" thumb="assets/img/portfolio/csepulse/cse-pulse-watchlist.png" loading="lazy" category="screen captures" %}
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-watchlist.png" thumb="assets/img/portfolio/basisfolio/basisfolio-watchlist.png" loading="lazy" category="screen captures" %}
       <figcaption class="apple-shot-caption">Watchlist</figcaption>
     </figure>
 
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-wiki.png" thumb="assets/img/portfolio/csepulse/cse-pulse-wiki.png" loading="lazy" category="screen captures" %}
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-wiki.png" thumb="assets/img/portfolio/basisfolio/basisfolio-wiki.png" loading="lazy" category="screen captures" %}
       <figcaption class="apple-shot-caption">Wiki</figcaption>
     </figure>
 
     <figure class="apple-shot">
-      {% include image_fancybox.liquid full="/assets/img/portfolio/csepulse/cse-pulse-settings.png" thumb="assets/img/portfolio/csepulse/cse-pulse-settings.png" loading="lazy" category="screen captures" %}
+      {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-settings.png" thumb="assets/img/portfolio/basisfolio/basisfolio-settings.png" loading="lazy" category="screen captures" %}
       <figcaption class="apple-shot-caption">Settings and AI Usage</figcaption>
     </figure>
   </div>

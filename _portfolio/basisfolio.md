@@ -325,7 +325,7 @@ _styles: >
 
     <figure class="apple-shot">
       {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-report.png" thumb="assets/img/portfolio/basisfolio/basisfolio-report.png" loading="lazy" category="screen captures" %}
-      <figcaption class="apple-shot-caption">Generated Research Report</figcaption>
+      <figcaption class="apple-shot-caption">Report Analysis with Cited Financials</figcaption>
     </figure>
 
     <figure class="apple-shot">

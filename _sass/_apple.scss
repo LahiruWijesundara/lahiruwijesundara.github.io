@@ -938,6 +938,37 @@ figure.cover {
   letter-spacing: -0.005em;
 }
 
+// Project link buttons in the hero (Website, Steam, Discord, …)
+.apple-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 0.9rem;
+}
+
+.apple-hero .apple-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.4rem 0.95rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background: var(--apple-accent-soft);
+  color: var(--apple-accent);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  text-decoration: none;
+  transition: border-color 200ms ease, transform 200ms ease;
+
+  &:hover {
+    border-color: var(--apple-accent);
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+}
+
 // --- Overview card ---
 
 .apple-overview {

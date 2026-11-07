@@ -15,8 +15,9 @@ _styles: >
     eyebrow="Lead Gameplay Programmer · Oct 2024 – Present"
     title="Blood Reckoning"
     subtitle="A dark-fantasy MMORPG made by gamers for gamers — PvP-centric combat, ancient sorcery, and rare one-off skills earned through exploration."
-    meta="!Lead Programmer,Zukel Investment Group,USA (Remote)"
+    meta="Zukel Investment Group,USA (Remote)"
     tech="Unreal Engine 4 & 5,C++,Azure PlayFab SDK,Multiplayer Framework,Gameplay Framework"
+    links="Official Website|https://bloodreckoning.com/,Steam Page|https://store.steampowered.com/app/3349340/Blood_Reckoning_The_Eternal_War/,Discord|https://discord.com/invite/zAeZ56szQd"
 %}
 
 {% include apple/preview_strip.liquid
@@ -27,7 +28,6 @@ _styles: >
 <div class="apple-overview">
   <p>
     Blood Reckoning is a dark-fantasy MMORPG set in a realm shattered by the appearance of Blood Stones, blending ancient technology, sorcery, demons, angels, elves, dwarves, and desperate humans struggling to survive. PvP-centric combat offers unique, limited-edition skills and weapons — true one-offs earned through exploration, puzzle-solving, or rare NPC encounters.
-    <a href="https://bloodreckoning.com/" target="_blank">Official Website</a> · <a href="https://store.steampowered.com/app/3349340/Blood_Reckoning_The_Eternal_War/" target="_blank">Steam Page</a> · <a href="https://discord.com/invite/zAeZ56szQd" target="_blank">Discord</a>
   </p>
   <p>
     I'm leading the team to design and implement gameplay mechanics utilising Unreal Engine's Gameplay Framework, ensuring robust and maintainable systems. Designed and developed a comprehensive player data-saving solution by integrating Unreal's built-in save system with MongoDB for persistent and efficient storage. Implemented a versatile combat system with melee and ranged mechanics, and sophisticated enemy AI using Unreal Engine's AI framework.

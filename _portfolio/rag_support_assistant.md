@@ -15,7 +15,7 @@ _styles: >
     eyebrow="AI-powered customer support · RAG"
     title="RAG Support Assistant"
     subtitle="A production-ready Retrieval-Augmented Generation platform that answers customer questions strictly from a company's own knowledge base — docs, FAQs, PDFs, and crawled web pages — with a clickable source citation on every claim and a hard refusal when the answer isn't in the knowledge base."
-    meta="!AI Engineer,RAG,Customer Support,Anti-Hallucination"
+    meta="RAG,Customer Support,Anti-Hallucination"
     tech="Next.js 16,React 19,TypeScript,Vercel AI SDK v6,Postgres + pgvector,Drizzle ORM,Auth.js,Codex CLI,transformers.js,Zod"
 %}
 

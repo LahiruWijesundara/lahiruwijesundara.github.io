@@ -17,6 +17,7 @@ _styles: >
     subtitle="A comparative performance analysis of Deep Q-Network and Proximal Policy Optimisation reinforcement algorithms in a Unity ML-Agents fighting game environment."
     meta="!Research,UWE,United Kingdom"
     tech="Unity,Unity ML-Agents,IBM SPSS,Deep Reinforcement Learning"
+    links="Proposal|/assets/pdf/msc_research_1/DissertationProposal_MSc_Wijesundara.pdf,Git Repository|https://gitlab.com/lmwijesundara/fighter2dml,Final Viva Presentation|/assets/pdf/msc_research_1/lahiru_dissertation_presentation.pptx,Prototype|https://uweacuk-my.sharepoint.com/:u:/g/personal/wijesundara2_wijesundara_live_uwe_ac_uk/EcXvFA-2hKFJudd0hFOZQhgBd5gvUrxKlIvrMvdGbkJWaw?e=jsNtAm"
 %}
 
 {% include apple/preview_strip.liquid
@@ -27,13 +28,6 @@ _styles: >
 <div class="apple-overview">
   <p>
     <strong>Supervisor:</strong> <a href="https://people.uwe.ac.uk/Person/BethanyMackey" target="_blank">Mackey, B. A</a> (Senior Lecturer of Creative Technology, School of Computing &amp; Creative Technologies, UWE, UK)
-  </p>
-  <p>
-    <strong>Additional Resources:</strong>
-    <a href="/assets/pdf/msc_research_1/DissertationProposal_MSc_Wijesundara.pdf" target="_blank">Proposal</a> ·
-    <a href="https://gitlab.com/lmwijesundara/fighter2dml" target="_blank">Git Repository</a> ·
-    <a href="/assets/pdf/msc_research_1/lahiru_dissertation_presentation.pptx" target="_blank">Final Viva Presentation</a> ·
-    <a href="https://uweacuk-my.sharepoint.com/:u:/g/personal/wijesundara2_wijesundara_live_uwe_ac_uk/EcXvFA-2hKFJudd0hFOZQhgBd5gvUrxKlIvrMvdGbkJWaw?e=jsNtAm" target="_blank">Prototype</a>
   </p>
 </div>
 

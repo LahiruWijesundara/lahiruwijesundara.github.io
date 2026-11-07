@@ -15,7 +15,7 @@ _styles: >
     eyebrow="Agentic RAG · Document intelligence"
     title="Cortex"
     subtitle="A document-grounded RAG agent chatbot with a dashboard: upload PDFs, DOCX, TXT, or Markdown, ask questions, and get streaming answers with numbered citations back to the exact source passage. Conversations persist across sessions through two layers of memory, and the agent orchestrates retrieval alongside external tools loaded over the Model Context Protocol (MCP)."
-    meta="!AI Engineer,Agentic RAG,Persistent Memory,MCP"
+    meta="Agentic RAG,Persistent Memory,MCP"
     tech="LangChain,LangGraph,FastAPI,React 18,TypeScript,Vite,Chroma / pgvector,SQLite / Postgres,SSE,Gemini · GPT · Claude"
 %}
 

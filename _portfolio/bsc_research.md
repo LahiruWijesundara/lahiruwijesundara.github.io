@@ -18,6 +18,7 @@ _styles: >
     subtitle="A Java-based parallel computing pipeline that reduced molecular pathway search time by up to nine days using an enhanced Depth-First Search algorithm."
     meta="!Research,University of Peradeniya,Sri Lanka"
     tech="Java,Java Threads,Parallel Computing,Bioinformatics Databases"
+    links="Publication|/assets/pdf/bsc_research/PGIS_Research%20Congress_Abstract_Wijesundara.pdf,Thesis|/assets/pdf/bsc_research/Thesis_BSc_Wijesundara.pdf"
 %}
 
 {% include apple/preview_strip.liquid
@@ -31,11 +32,6 @@ _styles: >
     <a href="https://sci.pdn.ac.lk/scs/staff/Ruwanthini-Siyambalapitiya" target="_blank">Dr. R. Siyambalapitiya</a>,
     <a href="https://www.linkedin.com/in/prabhath-gunathilake-50870218/" target="_blank">Mr. P. Gunathilake</a>
     (Faculty of Science, University of Peradeniya, Sri Lanka)
-  </p>
-  <p>
-    <strong>Additional Resources:</strong>
-    <a href="/assets/pdf/bsc_research/PGIS_Research Congress_Abstract_Wijesundara.pdf" target="_blank">Publication</a> ·
-    <a href="/assets/pdf/bsc_research/Thesis_BSc_Wijesundara.pdf" target="_blank">Thesis</a>
   </p>
 </div>
 

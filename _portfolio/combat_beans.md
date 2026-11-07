@@ -15,8 +15,9 @@ _styles: >
     eyebrow="Senior Gameplay Programmer · July 2021 – Sep 2023"
     title="Combat Beans: Total Mayhem"
     subtitle="A chaotic third-person shooter combining Fall Guys party-game energy with intense combat mechanics — available on Steam."
-    meta="!Senior Gameplay Programmer,Peanut Brain Studios,Japan (Remote)"
+    meta="Peanut Brain Studios,Japan (Remote)"
     tech="Unreal Engine 4 & 5,C++,Azure PlayFab SDK,Multiplayer Framework"
+    links="Official Website|https://www.peanutbrainstudios.com/,Steam Page|https://store.steampowered.com/app/1717080/Combat_Beans_Total_Mayhem/"
 %}
 
 {% include apple/preview_strip.liquid
@@ -26,7 +27,7 @@ _styles: >
 
 <div class="apple-overview">
   <p>
-    Combat Beans: Total Mayhem is a fun and chaotic third-person shooter that combines "Fall Guys" party game elements with intense combat mechanics. The game is available on Steam and features dynamic multiplayer gameplay. <a href="https://www.peanutbrainstudios.com/" target="_blank">Official Website</a> · <a href="https://store.steampowered.com/app/1717080/Combat_Beans_Total_Mayhem/" target="_blank">Steam Page</a>
+    Combat Beans: Total Mayhem is a fun and chaotic third-person shooter that combines "Fall Guys" party game elements with intense combat mechanics. The game is available on Steam and features dynamic multiplayer gameplay.
   </p>
   <p>
     I led the team to design and implement advanced gameplay mechanics using the Unreal Engine Gameplay framework, architected the combat system and player inventory, and enabled dynamically scalable servers and matchmaking through Microsoft Azure PlayFab.

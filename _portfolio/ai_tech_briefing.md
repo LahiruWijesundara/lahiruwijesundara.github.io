@@ -15,7 +15,7 @@ _styles: >
     eyebrow="Self-Hosted AI Tech Briefing Agent"
     title="AI Tech Briefing OpenClaw Agent"
     subtitle="A self-hosted autonomous AI workflow that monitors AI and developer-tool trends across RSS feeds and YouTube, filters low-signal noise, ranks updates by engineering and freelance value, and delivers readable daily briefings to Telegram while archiving structured reports into Notion."
-    meta="!AI Engineer,OpenClaw,Zapier MCP,Hostinger VPS"
+    meta="OpenClaw,Zapier MCP,Hostinger VPS"
     tech="AGENTS.md,Telegram Bot,Notion,RSS,YouTube Data API,Hostinger VPS"
 %}
 

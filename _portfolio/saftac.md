@@ -19,6 +19,11 @@ _styles: >
     tech="Unreal Engine 4 & 5,C++,Multiplayer Framework,AI Framework"
 %}
 
+{% include apple/preview_strip.liquid
+    full="/assets/img/portfolio/saftac/saftac_1_fhd.png,/assets/img/portfolio/saftac/saftac_2_fhd.png,/assets/img/portfolio/saftac/saftac_3_fhd.png"
+    thumb="/assets/img/portfolio/saftac/saftac_1_n.png,/assets/img/portfolio/saftac/saftac_2_n.png,/assets/img/portfolio/saftac/saftac_3_n.png"
+%}
+
 <div class="apple-overview">
   <p>
     SAF-TAC is a VR/Desktop multiplayer application designed specifically for military simulation and training with essential simulation functions such as Exercise Control, Scenario Authoring and After-Action Review. <a href="https://www.simct.com/" target="_blank">Official Website</a>

@@ -19,6 +19,11 @@ _styles: >
     tech="Next.js 16,React 19,PostgreSQL,Prisma 7,NextAuth,LangGraph,Trigger.dev,Codex CLI,Gemini API,Anthropic API"
 %}
 
+{% include apple/preview_strip.liquid
+    full="/assets/img/portfolio/basisfolio/basisfolio-dashboard.png,/assets/img/portfolio/basisfolio/basisfolio-portfolio.png,/assets/img/portfolio/basisfolio/basisfolio-companies.png"
+    thumb="/assets/img/portfolio/basisfolio/basisfolio-dashboard.png,/assets/img/portfolio/basisfolio/basisfolio-portfolio.png,/assets/img/portfolio/basisfolio/basisfolio-companies.png"
+%}
+
 <div class="apple-overview">
   <p>
     <span class="lead-emphasis">Basisfolio</span> is a private investment workspace for retail investors who manage a stock market portfolio. The product has moved beyond a simple holdings tracker into a full daily decision system: monitor the market, understand portfolio exposure, review companies, track dividends, read central bank updates, follow material news, and ask an AI advisor questions against the user's own portfolio context.
@@ -325,7 +330,7 @@ _styles: >
 
     <figure class="apple-shot">
       {% include image_fancybox.liquid full="/assets/img/portfolio/basisfolio/basisfolio-report.png" thumb="assets/img/portfolio/basisfolio/basisfolio-report.png" loading="lazy" category="screen captures" %}
-      <figcaption class="apple-shot-caption">Generated Research Report</figcaption>
+      <figcaption class="apple-shot-caption">Report Analysis with Cited Financials</figcaption>
     </figure>
 
     <figure class="apple-shot">

@@ -19,6 +19,11 @@ _styles: >
     tech="Unity,Unity ML-Agents,IBM SPSS,Deep Reinforcement Learning"
 %}
 
+{% include apple/preview_strip.liquid
+    full="/assets/img/portfolio/mscdissertation/2DMLFighter.gif"
+    thumb="/assets/img/portfolio/mscdissertation/2DMLFighter.gif"
+%}
+
 <div class="apple-overview">
   <p>
     <strong>Supervisor:</strong> <a href="https://people.uwe.ac.uk/Person/BethanyMackey" target="_blank">Mackey, B. A</a> (Senior Lecturer of Creative Technology, School of Computing &amp; Creative Technologies, UWE, UK)

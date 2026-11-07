@@ -19,6 +19,11 @@ _styles: >
     tech="Unreal Engine 5.7,C++,Gameplay Ability System,Mass Entity (ECS),Enhanced Input,CommonUI,Steam Online Subsystem"
 %}
 
+{% include apple/preview_strip.liquid
+    full="/assets/img/portfolio/wota/wota_1_fhd.png,/assets/img/portfolio/wota/wota_2_fhd.png,/assets/img/portfolio/wota/wota_4_fhd.png"
+    thumb="/assets/img/portfolio/wota/wota_1_n.png,/assets/img/portfolio/wota/wota_2_n.png,/assets/img/portfolio/wota/wota_4_n.png"
+%}
+
 <div class="apple-overview">
   <p>
     War of the Ages is an elemental-fantasy RTS currently in development at Red Gaming. Armies of units battle across capture points, turrets, and a multi-tier resource economy — all running server-authoritatively over Steam multiplayer.

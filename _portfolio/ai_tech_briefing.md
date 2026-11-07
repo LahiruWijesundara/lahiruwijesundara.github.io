@@ -19,6 +19,11 @@ _styles: >
     tech="AGENTS.md,Telegram Bot,Notion,RSS,YouTube Data API,Hostinger VPS"
 %}
 
+{% include apple/preview_strip.liquid
+    full="/assets/img/portfolio/aibriefing/ai-tech-briefing-chat.png"
+    thumb="/assets/img/portfolio/aibriefing/ai-tech-briefing-chat.png"
+%}
+
 <div class="apple-overview">
   <p>
     The <span class="lead-emphasis">AI Tech Briefing OpenClaw Agent</span> is an autonomous research assistant built on <strong>OpenClaw</strong> with <strong>Zapier MCP</strong> as the tool layer. It pulls updates from RSS feeds, YouTube searches, AI product blogs, and developer-tool ecosystems, then uses an LLM to summarise, rank, and format the highest-value stories into a mobile-friendly daily briefing.

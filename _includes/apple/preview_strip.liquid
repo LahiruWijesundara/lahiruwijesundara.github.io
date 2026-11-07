@@ -1,0 +1,17 @@
+{% comment %}
+  One row of screenshots shown just below the hero.
+
+  Parameters:
+    full  – comma-separated full-size image paths
+    thumb – comma-separated thumbnail paths (same order as full)
+{% endcomment %}
+{% assign full_items = include.full | split: "," %}
+{% assign thumb_items = include.thumb | split: "," %}
+<section class="apple-preview-strip" style="--strip-cols: {{ full_items.size }};">
+  {% for item in full_items %}
+    {% assign thumb_item = thumb_items[forloop.index0] %}
+    <figure class="apple-shot">
+      {% include image_fancybox.liquid full=item thumb=thumb_item loading="eager" category="Preview Strip" %}
+    </figure>
+  {% endfor %}
+</section>

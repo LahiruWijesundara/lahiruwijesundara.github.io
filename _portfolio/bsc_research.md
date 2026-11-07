@@ -20,6 +20,11 @@ _styles: >
     tech="Java,Java Threads,Parallel Computing,Bioinformatics Databases"
 %}
 
+{% include apple/preview_strip.liquid
+    full="/assets/img/portfolio/bscresearch/bsc_research_1_n.png"
+    thumb="/assets/img/portfolio/bscresearch/bsc_research_1_n.png"
+%}
+
 <div class="apple-overview">
   <p>
     <strong>Supervisors:</strong>

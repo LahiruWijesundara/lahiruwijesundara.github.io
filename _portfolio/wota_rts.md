@@ -1,8 +1,8 @@
 ---
 layout: page
-title: War of the Ages <br> <em>Elemental Fantasy Real-Time Strategy (RTS)</em>
+title: Bedroom Brawl <br> <em>Elemental Fantasy Real-Time Strategy (RTS)</em>
 description: "Senior Unreal Engine Developer (Nov 2025 – Present) <br> Red Gaming"
-img: assets/img/portfolio/wota/wota-card.png
+img: assets/img/portfolio/wota/bedroom-brawl-card.jpg
 permalink: /war-of-the-ages/
 importance: 1
 category: Work Experience - Game Dev
@@ -13,9 +13,9 @@ _styles: >
 
 {% include apple/hero.liquid
     eyebrow="Senior Unreal Engine Developer · Nov 2025 – Present"
-    title="War of the Ages"
+    title="Bedroom Brawl"
     subtitle="An elemental-fantasy real-time strategy (RTS) game built in Unreal Engine 5.7 hundreds of units, powered by the Gameplay Ability System(GAS)."
-    meta="!Senior Unreal Engine Developer,Red Gaming"
+    meta="Red Gaming"
     tech="Unreal Engine 5.7,C++,Gameplay Ability System,Mass Entity (ECS),Enhanced Input,CommonUI,Steam Online Subsystem"
 %}
 
@@ -26,7 +26,7 @@ _styles: >
 
 <div class="apple-overview">
   <p>
-    War of the Ages is an elemental-fantasy RTS currently in development at Red Gaming. Armies of units battle across capture points, turrets, and a multi-tier resource economy — all running server-authoritatively over Steam multiplayer.
+    Bedroom Brawl is an elemental-fantasy RTS currently in development at Red Gaming. Armies of units battle across capture points, turrets, and a multi-tier resource economy — all running server-authoritatively over Steam multiplayer.
   </p>
   <p>
     My work centres on gameplay systems built on Unreal's <strong>Gameplay Ability System (GAS)</strong> at RTS scale: custom C++ abilities, an attribute-driven combat and economy model, and a hybrid GAS + Mass Entity architecture that keeps abilities performant with hundreds of concurrent units.
@@ -119,5 +119,5 @@ _styles: >
       {% include image_fancybox.liquid full="/assets/img/portfolio/wota/wota_3_fhd.png" thumb="/assets/img/portfolio/wota/wota_3_n.png" loading="lazy" category="Image Gallery" caption="In-game — HQ building" %}
     </figure>
   </div>
-  <p class="apple-media-credit">Work-in-progress captures. War of the Ages is in active development.</p>
+  <p class="apple-media-credit">Work-in-progress captures. Bedroom Brawl is in active development.</p>
 </section>

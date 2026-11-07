@@ -17,6 +17,7 @@ _styles: >
     subtitle="A serious game that educates players about transport decarbonisation — modelling real-world vehicle emission data with eight interactive policy levers."
     meta="!Research,UWE,United Kingdom"
     tech="Unity,Unity ML-Agents,IBM SPSS,Deep Reinforcement Learning"
+    links="Dissertation Paper|/assets/pdf/msc_research_2/DissertationTransportDecarbonisation_MSc_Wijesundara.pdf"
 %}
 
 {% include apple/preview_strip.liquid
@@ -35,10 +36,6 @@ _styles: >
     <a href="https://people.uwe.ac.uk/Person/NikolaosErsotelos" target="_blank">Dr. N. Ersotelos (UWE, UK)</a>,
     <a href="https://www.eau.ac.ae/en/faculty-of-business-management-faculty/dr-evangelia-pantelaki/" target="_blank">Dr. E. Pantelaki (UAE)</a>,
     <a href="https://people.uwe.ac.uk/Person/MuhammadAdeel" target="_blank">Dr. M. Adeel (UWE, UK)</a>
-  </p>
-  <p>
-    <strong>Additional Resources:</strong>
-    <a href="/assets/pdf/msc_research_2/DissertationTransportDecarbonisation_MSc_Wijesundara.pdf" target="_blank">Dissertation Paper</a>
   </p>
 </div>
 

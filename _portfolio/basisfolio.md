@@ -15,7 +15,7 @@ _styles: >
     eyebrow="Client Project - Jan 2026 - Present"
     title="Basisfolio"
     subtitle="A full-stack AI workspace for stock market investors, combining live market data, portfolio accounting, report research, AI suggestions, an AI advisor, central bank updates, dividends, news, risk monitoring, and company intelligence in one authenticated product."
-    meta="!Full-Stack AI Engineer,Basisfolio,Web Platform"
+    meta="Basisfolio,Web Platform"
     tech="Next.js 16,React 19,PostgreSQL,Prisma 7,NextAuth,LangGraph,Trigger.dev,Codex CLI,Gemini API,Anthropic API"
 %}
 

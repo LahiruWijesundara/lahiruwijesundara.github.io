@@ -15,7 +15,7 @@ _styles: >
     eyebrow="AI copilot for performance agencies"
     title="Agency Copilot"
     subtitle="A full-stack AI platform for performance marketing agencies that turns multi-platform paid-media data from CSV uploads or platform APIs into deterministic KPI analysis, editable client-ready narratives, white-labeled PDFs, and account QA audits."
-    meta="!AI Engineer,Agency Reporting,Performance Marketing"
+    meta="Agency Reporting,Performance Marketing"
     tech="Next.js 16,React 19,TypeScript,Supabase,Clerk,Codex CLI,Tiptap,React-PDF,PapaParse,Vitest"
 %}
 

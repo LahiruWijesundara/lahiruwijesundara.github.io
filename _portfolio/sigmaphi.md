@@ -15,13 +15,14 @@ _styles: >
     eyebrow="Unreal Engine Gameplay Programmer · Mar 2023 – Aug 2023"
     title="Sigma Phi Laboratory"
     subtitle="A scientifically accurate serious game built for PC — integrating complex simulation systems to deliver an educational and interactive experience."
-    meta="!Gameplay Programmer,Sigma Phi Labs,China (Remote)"
+    meta="Sigma Phi Labs,China (Remote)"
     tech="Unreal Engine 4 & 5,C++,Gameplay Framework,License Spring SDK,Azure PlayFab"
+    links="Official Website|https://www.sigmaphilabs.com/"
 %}
 
 <div class="apple-overview">
   <p>
-    Sigma Phi Laboratory is a serious game developed for PC. The project involved creating a scientifically accurate and engaging simulation that integrates various complex systems to provide an educational and interactive experience for players. The game is designed to support scientific research and education, making complex concepts accessible through immersive gameplay. <a href="https://www.sigmaphilabs.com/" target="_blank">Official Website</a>
+    Sigma Phi Laboratory is a serious game developed for PC. The project involved creating a scientifically accurate and engaging simulation that integrates various complex systems to provide an educational and interactive experience for players. The game is designed to support scientific research and education, making complex concepts accessible through immersive gameplay.
   </p>
 </div>
 

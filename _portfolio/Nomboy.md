@@ -15,14 +15,14 @@ _styles: >
     eyebrow="MSc Commercial Games Development · UWE, United Kingdom"
     title="Nom Boy's Love For The World"
     subtitle="A charming 3D puzzle platformer where Nom Boy navigates levels using unique elemental abilities — also ported to PS5."
-    meta="!Game Developer,UWE,United Kingdom"
+    meta="UWE,United Kingdom"
     tech="Unity,C#,Cinemachine"
+    links="Itch.io|https://bitbee-cg.itch.io/nom-boys-love-for-the-world"
 %}
 
 <div class="apple-overview">
   <p>
     Nom Boy's Love for The World is a charming 3D puzzle platformer created as part of the MSc Commercial Games Development program at UWE. The game focuses on Nom Boy navigating through various levels, solving puzzles and overcoming obstacles using unique elemental abilities.
-    <a href="https://bitbee-cg.itch.io/nom-boys-love-for-the-world" target="_blank">Itch.io</a>
   </p>
 </div>
 

@@ -15,8 +15,9 @@ _styles: >
     eyebrow="Senior Software Engineer · April 2018 – Sep 2023"
     title="SAF-TAC"
     subtitle="A VR/Desktop multiplayer application for military simulation and training, featuring Exercise Control, Scenario Authoring, and After-Action Review."
-    meta="!Senior Software Engineer,SimCentric,Sri Lanka"
+    meta="SimCentric,Sri Lanka"
     tech="Unreal Engine 4 & 5,C++,Multiplayer Framework,AI Framework"
+    links="Official Website|https://www.simct.com/"
 %}
 
 {% include apple/preview_strip.liquid
@@ -26,7 +27,7 @@ _styles: >
 
 <div class="apple-overview">
   <p>
-    SAF-TAC is a VR/Desktop multiplayer application designed specifically for military simulation and training with essential simulation functions such as Exercise Control, Scenario Authoring and After-Action Review. <a href="https://www.simct.com/" target="_blank">Official Website</a>
+    SAF-TAC is a VR/Desktop multiplayer application designed specifically for military simulation and training with essential simulation functions such as Exercise Control, Scenario Authoring and After-Action Review.
   </p>
   <p>
     Contributed to creating complex systems and enhancing gameplay experiences using the Unreal Engine gameplay framework and Agile methodologies in a highly dynamic, talented team of programmers, game designers, QA engineers and artists. Developed multiplayer mechanics and optimised network performance, including server-side logic and AI systems.

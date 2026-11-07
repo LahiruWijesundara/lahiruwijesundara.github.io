@@ -7,6 +7,7 @@
     subtitle  – one-sentence description
     meta      – comma-separated pill labels; prefix with "!" for accent style
     tech      – comma-separated technology names
+    links     – comma-separated "Label|url" pairs rendered as link buttons
 {% endcomment %}
 <section class="apple-hero">
   {% if include.eyebrow %}<span class="apple-eyebrow">{{ include.eyebrow }}</span>{% endif %}
@@ -31,6 +32,16 @@
     {% assign tech_items = include.tech | split: "," %}
     {% for item in tech_items %}
       <span class="apple-chip">{{ item | strip }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if include.links %}
+  <div class="apple-links" aria-label="Project links">
+    {% assign link_items = include.links | split: "," %}
+    {% for item in link_items %}
+      {% assign parts = item | split: "|" %}
+      <a class="apple-link-btn" href="{{ parts[1] | strip }}" target="_blank" rel="noopener">{{ parts[0] | strip }} <span aria-hidden="true">↗</span></a>
     {% endfor %}
   </div>
   {% endif %}

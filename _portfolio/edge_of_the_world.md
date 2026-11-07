@@ -15,7 +15,7 @@ _styles: >
     eyebrow="Gameplay Programmer · May 2021 – Dec 2021"
     title="The Edge of the World"
     subtitle="An open-world action RPG set in a richly detailed fantasy universe — dynamic combat, intelligent AI, and a living, breathing world."
-    meta="!Gameplay Programmer,Ksavage Media,USA (Remote)"
+    meta="Ksavage Media,USA (Remote)"
     tech="Unreal Engine 4 & 5,C++,Gameplay Framework,AI Framework"
 %}
 

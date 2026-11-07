@@ -15,7 +15,6 @@ _styles: >
     eyebrow="AI content strategist for YouTube"
     title="Channel Compass"
     subtitle="An AI content strategist for YouTube creators that orchestrates specialist subagents to audit titles, thumbnails, metadata, engagement signals, and a synthesized SEO scorecard while streaming progress to the browser in real time."
-    meta="!AI Engineer"
     tech="Claude Code,Claude Skills, Vercel AI Gateway, MCP, Vercel AI Gateway, Next.js, React"
 %}
 

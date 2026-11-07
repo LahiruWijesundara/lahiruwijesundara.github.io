@@ -17,6 +17,7 @@ _styles: >
     subtitle="A multiplayer cooperation game with a hidden betrayal twist — escape a trapped ice cave before 'The Frozen' claims you."
     meta="!Multiplayer Game,Unreal Spring Jam 2020"
     tech="Unreal Engine,UMG Widgets,C++,Multiplayer"
+    links="Itch.io|https://ncalibrated.itch.io/under-the-ice"
 %}
 
 {% include apple/preview_strip.liquid
@@ -30,7 +31,6 @@ _styles: >
     <a href="https://www.linkedin.com/in/janith-samarathunga-1b3245b7/" target="_blank">Janith Samarathunga</a>,
     <a href="https://www.linkedin.com/in/kavindu-heshan-31147a140/" target="_blank">Kavindu Heshan</a>,
     <a href="https://www.linkedin.com/in/oshan-wickramaratne/" target="_blank">Oshan Wickramarathne</a>
-    · <a href="https://ncalibrated.itch.io/under-the-ice" target="_blank">Itch.io</a>
   </p>
 </div>
 

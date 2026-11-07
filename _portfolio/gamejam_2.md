@@ -19,6 +19,11 @@ _styles: >
     tech="Unreal Engine,UMG Widgets,C++,Multiplayer"
 %}
 
+{% include apple/preview_strip.liquid
+    full="/assets/img/portfolio/gamejam2/gamejam2_1.png,/assets/img/portfolio/gamejam2/gamejam2_2.png"
+    thumb="/assets/img/portfolio/gamejam2/gamejam2_1.png,/assets/img/portfolio/gamejam2/gamejam2_2.png"
+%}
+
 <div class="apple-overview">
   <p>
     <strong>Contributors:</strong>

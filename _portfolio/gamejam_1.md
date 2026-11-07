@@ -19,6 +19,11 @@ _styles: >
     tech="Unreal Engine,UMG Widgets,C++,Oculus Quest"
 %}
 
+{% include apple/preview_strip.liquid
+    full="/assets/img/portfolio/gamejam1/gamejam1_1.jpg,/assets/img/portfolio/gamejam1/gamejam1_2.jpg"
+    thumb="/assets/img/portfolio/gamejam1/gamejam1_1.jpg,/assets/img/portfolio/gamejam1/gamejam1_2.jpg"
+%}
+
 <div class="apple-overview">
   <p>
     <strong>Contributors:</strong>

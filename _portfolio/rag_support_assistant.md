@@ -19,6 +19,11 @@ _styles: >
     tech="Next.js 16,React 19,TypeScript,Vercel AI SDK v6,Postgres + pgvector,Drizzle ORM,Auth.js,Codex CLI,transformers.js,Zod"
 %}
 
+{% include apple/preview_strip.liquid
+    full="/assets/img/portfolio/ragsupport/rag-support-landing.png,/assets/img/portfolio/ragsupport/rag-support-chat.png,/assets/img/portfolio/ragsupport/rag-support-admin-documents.png"
+    thumb="/assets/img/portfolio/ragsupport/rag-support-landing.png,/assets/img/portfolio/ragsupport/rag-support-chat.png,/assets/img/portfolio/ragsupport/rag-support-admin-documents.png"
+%}
+
 <div class="apple-overview">
   <p>
     <span class="lead-emphasis">RAG Support Assistant</span> is a full-stack AI support platform built around one core rule: the assistant may only answer from retrieved knowledge-base content, and every statement it makes must cite the source chunks it drew from. If retrieval returns nothing relevant, the model never sees the question — it returns a fixed refusal message instead of guessing.

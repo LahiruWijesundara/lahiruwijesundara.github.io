@@ -19,6 +19,11 @@ _styles: >
     tech="Unreal Engine 4 & 5,C++,Azure PlayFab SDK,Multiplayer Framework,Gameplay Framework"
 %}
 
+{% include apple/preview_strip.liquid
+    full="/assets/img/portfolio/bloodreckoning/bloodreckoning_1_fhd.png,/assets/img/portfolio/bloodreckoning/bloodreckoning_2_fhd.png,/assets/img/portfolio/bloodreckoning/bloodreckoning_3_fhd.png"
+    thumb="/assets/img/portfolio/bloodreckoning/bloodreckoning_1_n.png,/assets/img/portfolio/bloodreckoning/bloodreckoning_2_n.png,/assets/img/portfolio/bloodreckoning/bloodreckoning_3_n.png"
+%}
+
 <div class="apple-overview">
   <p>
     Blood Reckoning is a dark-fantasy MMORPG set in a realm shattered by the appearance of Blood Stones, blending ancient technology, sorcery, demons, angels, elves, dwarves, and desperate humans struggling to survive. PvP-centric combat offers unique, limited-edition skills and weapons — true one-offs earned through exploration, puzzle-solving, or rare NPC encounters.

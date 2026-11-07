@@ -19,6 +19,11 @@ _styles: >
     tech="LangChain,LangGraph,FastAPI,React 18,TypeScript,Vite,Chroma / pgvector,SQLite / Postgres,SSE,Gemini · GPT · Claude"
 %}
 
+{% include apple/preview_strip.liquid
+    full="/assets/img/portfolio/cortexrag/cortex-chat.png,/assets/img/portfolio/cortexrag/cortex-documents.png,/assets/img/portfolio/cortexrag/cortex-evals.png"
+    thumb="/assets/img/portfolio/cortexrag/cortex-chat.png,/assets/img/portfolio/cortexrag/cortex-documents.png,/assets/img/portfolio/cortexrag/cortex-evals.png"
+%}
+
 <div class="apple-overview">
   <p>
     <span class="lead-emphasis">Cortex</span> is built around <em>agentic</em> RAG: instead of retrieving on every message, a LangChain <code>create_agent</code> loop decides when a question needs the documents and calls a <code>retrieve_documents</code> tool itself. The tool returns numbered, source-tagged passages that the model must cite inline — "Revenue grew 10% [1][3]" — and carries the raw chunks as an artifact that the API turns into citation cards, so every claim in the answer links back to a file, page, and snippet.

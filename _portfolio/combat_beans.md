@@ -19,6 +19,11 @@ _styles: >
     tech="Unreal Engine 4 & 5,C++,Azure PlayFab SDK,Multiplayer Framework"
 %}
 
+{% include apple/preview_strip.liquid
+    full="/assets/img/portfolio/combatbeans/combatbeans_1_fhd.png,/assets/img/portfolio/combatbeans/combatbeans_2_fhd.png,/assets/img/portfolio/combatbeans/combatbeans_6_fhd.png"
+    thumb="/assets/img/portfolio/combatbeans/combatbeans_1_n.png,/assets/img/portfolio/combatbeans/combatbeans_2_n.png,/assets/img/portfolio/combatbeans/combatbeans_6_n.png"
+%}
+
 <div class="apple-overview">
   <p>
     Combat Beans: Total Mayhem is a fun and chaotic third-person shooter that combines "Fall Guys" party game elements with intense combat mechanics. The game is available on Steam and features dynamic multiplayer gameplay. <a href="https://www.peanutbrainstudios.com/" target="_blank">Official Website</a> · <a href="https://store.steampowered.com/app/1717080/Combat_Beans_Total_Mayhem/" target="_blank">Steam Page</a>

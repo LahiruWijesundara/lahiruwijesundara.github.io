@@ -1179,6 +1179,21 @@ figure.cover {
   p.text-center { display: none; } // fancybox caption paragraph — replaced by .apple-shot-caption
 }
 
+// --- Preview strip (one row of shots under the hero) ---
+
+.apple-preview-strip {
+  display: grid;
+  grid-template-columns: repeat(var(--strip-cols, 3), minmax(0, 1fr));
+  gap: 1rem;
+  max-width: 1100px;
+  margin: 0 auto 3.5rem;
+
+  @media (max-width: 760px) {
+    grid-template-columns: 1fr;
+    margin-bottom: 2.5rem;
+  }
+}
+
 // --- Product walkthrough video ---
 
 .apple-video-frame {

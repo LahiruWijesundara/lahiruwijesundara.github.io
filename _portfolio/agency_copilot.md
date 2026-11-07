@@ -19,6 +19,11 @@ _styles: >
     tech="Next.js 16,React 19,TypeScript,Supabase,Clerk,Codex CLI,Tiptap,React-PDF,PapaParse,Vitest"
 %}
 
+{% include apple/preview_strip.liquid
+    full="/assets/img/portfolio/agencycopilot/agency-copilot-import.png,/assets/img/portfolio/agencycopilot/agency-copilot-report.png,/assets/img/portfolio/agencycopilot/agency-copilot-audit.png"
+    thumb="/assets/img/portfolio/agencycopilot/agency-copilot-import.png,/assets/img/portfolio/agencycopilot/agency-copilot-report.png,/assets/img/portfolio/agencycopilot/agency-copilot-audit.png"
+%}
+
 <div class="apple-overview">
   <p>
     <span class="lead-emphasis">Agency Copilot</span> is a web application built for small-to-mid performance marketing agencies that still spend hours translating ad-platform data into weekly client reports. It supports CSV uploads for MVP/onboarding workflows and API-based imports for connected ad accounts across multiple paid-media platforms, including Meta Ads, Google Ads, and other campaign channels, then carries the reporting workflow through analysis, AI narrative generation, in-browser editing, PDF export, and archived report review.

@@ -19,6 +19,11 @@ _styles: >
     tech="Unity,Unity ML-Agents,IBM SPSS,Deep Reinforcement Learning"
 %}
 
+{% include apple/preview_strip.liquid
+    full="/assets/img/portfolio/mscresearch2/msc_research2_n.gif,/assets/img/portfolio/mscresearch2/msc_research2_2_n.gif"
+    thumb="/assets/img/portfolio/mscresearch2/msc_research2_n.gif,/assets/img/portfolio/mscresearch2/msc_research2_2_n.gif"
+%}
+
 <div class="apple-overview">
   <p>
     <strong>Core Authors:</strong>

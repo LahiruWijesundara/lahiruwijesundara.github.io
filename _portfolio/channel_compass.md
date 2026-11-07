@@ -19,6 +19,11 @@ _styles: >
     tech="Claude Code,Claude Skills, Vercel AI Gateway, MCP, Vercel AI Gateway, Next.js, React"
 %}
 
+{% include apple/preview_strip.liquid
+    full="/assets/img/portfolio/channelcompass/channel-compass-report-overview.png,/assets/img/portfolio/channelcompass/channel-compass-scorecard.png,/assets/img/portfolio/channelcompass/channel-compass-title-seo.png"
+    thumb="/assets/img/portfolio/channelcompass/channel-compass-report-overview.png,/assets/img/portfolio/channelcompass/channel-compass-scorecard.png,/assets/img/portfolio/channelcompass/channel-compass-title-seo.png"
+%}
+
 <div class="apple-overview">
   <p>
     <span class="lead-emphasis">Channel Compass</span> is a multi-agent YouTube SEO analysis platform built to show how agentic workflows can be made deterministic, observable, and product-ready. A creator enters a channel, starts an analysis run, and receives a structured report covering packaging, metadata, engagement, and prioritized improvements.
